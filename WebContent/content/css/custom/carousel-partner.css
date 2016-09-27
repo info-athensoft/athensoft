@@ -1,0 +1,66 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel-parnter {
+    margin-bottom: 0;
+    padding: 0 0px 30px 0px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-parnter-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-parnter .item {
+  /* height: 500px; */
+  height: 250px;
+  background-color: #fff;
+}
+.carousel-parnter-inner > .item > img {
+  position: relative;
+  position: absolute;  
+  top: 0px;
+  left: 0;
+  min-width: 100%;
+  height: 250px;
+  width: auto;
+}
+
+
+/* The controlsy */
+
+.carousel-partner-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-partner-control.right {
+	right: -12px;
+}
+
+	
+/* The indicators */
+.carousel-partner-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-partner-indicators li {
+	background: #cecece;
+}
+.carousel-partner-indicators .active {
+background: #428bca;
+}

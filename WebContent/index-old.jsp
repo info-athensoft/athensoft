@@ -36,12 +36,10 @@
     <link rel="stylesheet" href="content/css/custom/carousel.css">
     <link rel="stylesheet" href="content/css/custom/athensoft.css">
     
-    
     <!-- Font -->     
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     
     <!--
-    <link rel="stylesheet" href="content/css/custom/carousel-partner.css">
     <link href="content/font/opensans-light-webfront.woff" rel='stylesheet' type='text/css'>
     <link href="content/font/opensans-light-webfront.ttf" rel='stylesheet' type='text/css'>
     <link href="content/font/opensans-light-webfront.svg" rel='stylesheet' type='text/css'>
@@ -64,7 +62,6 @@
 		text-align:center;
 	}
     </style>
-    
   </head>
   
 
@@ -140,9 +137,9 @@
       <div class="row">
       	<div class="col-lg-4">
           <a href="ecomm.do">
-          <img class="img-circle" src="content/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="content/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
-          <h2><spring:message code="feature.website"/></h2>
+          <h2><spring:message code="feature.ecomm"/><spring:message code="feature.separator"/><spring:message code="feature.payment"/></h2>
           <p><spring:message code="feature.desc.34_a"/></p>
           <p><spring:message code="feature.desc.34_b"/></p>
           <p class="withBtn">
@@ -153,9 +150,9 @@
       
         <div class="col-lg-4">
           <a href="website.do">
-          <img class="img-circle" src="content/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="content/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
-          <h2><spring:message code="feature.emarketing"/></h2>
+          <h2><spring:message code="feature.site"/><spring:message code="feature.separator"/><spring:message code="feature.design"/></h2>
           <p><spring:message code="feature.desc.12_a"/></p>
 		  <p><spring:message code="feature.desc.12_b"/></p>
           <p class="withBtn"><a class="btn btn-default" href="website.do" role="button"><spring:message code="feature.btn.website"/></a> 
@@ -164,9 +161,9 @@
         
         <div class="col-lg-4">
           <a href="training.do">
-          <img class="img-circle" src="content/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="content/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
-          <h2><spring:message code="feature.payment"/></h2>
+          <h2><spring:message code="feature.consult"/><spring:message code="feature.separator"/><spring:message code="feature.train"/></h2>
           <p><spring:message code="feature.desc.56_a"/></p>
 		  <p><spring:message code="feature.desc.56_b"/></p>
           <p class="withBtn"><a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.consult"/></a>
@@ -215,24 +212,6 @@
      <!-- /END THE FEATURETTES -->
 	<hr class="athensoft-divider2"/>
 
-	  
-	  <!-- Partner -->
-	   <div class="row">
-		<div class="col-md-12">
-			<div style="text-align:center"><h3>Our partners</h3></div>
-            <!-- Carousel items -->
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-		</div><!--.Carousel-->
-		</div>
-	  <!-- End of partner -->
-	  
-	  
-	   <!-- /END THE FEATURETTES -->
-	<hr class="athensoft-divider2"/>
-	  
 	  <!-- Bottom -->
 	  <jsp:include page="bottom_inc.jsp"></jsp:include>	
 	  <!-- End of Bottom -->

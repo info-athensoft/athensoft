@@ -36,34 +36,16 @@
                 </li>
                 
                 <li id="ecomm" class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.ecomm"/> <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="ecomm.do"><spring:message code="service.ecomm"/></a></li>
-                    <li><a href="payment.do"><spring:message code="service.payment"/></a></li>
-                  </ul>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.website"/> <span class="caret"></span></a>
                 </li>
                 
                 <li id="service" class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.service"/> <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="website.do"><spring:message code="service.website"/></a></li>
-                    <li><a href="design.do"><spring:message code="service.design"/></a></li>
-                    <li><a href="#"><spring:message code="service.consult"/></a></li>
-                    <li><a href="training.do"><spring:message code="service.train"/></a></li>
-                    <!-- 
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                     -->
-                  </ul>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.emarketing"/> <span class="caret"></span></a>
                 </li>
                 
                 <!-- demo -->
                 <li id="demo">
-                	 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.demo"/> 
-                	 <span class="caret"></span></a>
-                	<!-- <a href="demo.do"><spring:message code="menu.demo"/></a>   -->
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.demo"/> <span class="caret"></span></a>
                 	<ul class="dropdown-menu" role="menu">
                     <li><a href="demo.do"><spring:message code="demo.canvas"/></a></li>
                     <li><a href="demo_enar.do"><spring:message code="demo.enar"/></a></li>
@@ -77,17 +59,26 @@
                 </li>
                 <!-- end events -->
                 
-                <!-- affiliate -->
-                <!-- 
-                <li id="affiliate">
-                	<a href="affiliate.do"><spring:message code="menu.affiliate"/></a>
-                </li>
-                 -->
-                <!-- end affiliate -->
                 
-                <!-- contact -->
-                <li id="contact"><a href="contact.do"><spring:message code="menu.contact"/></a></li>
-                <!-- end contact -->
+                
+                <!-- company -->
+                <li id="company">
+                	<a href="events.do"><spring:message code="menu.company"/></a>
+                </li>
+                <!-- end company -->
+                
+                
+                <!-- support -->
+                <li id="support">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.support"/> <span class="caret"></span></a>
+                	<ul class="dropdown-menu" role="menu">
+                    <li><a href="#"><spring:message code="menu.support.faq"/></a></li>
+                    <li><a href="#"><spring:message code="menu.support.contact"/></a></li>
+                  </ul>
+                </li>
+                <!-- end support -->
+                
+               
               </ul>
               
               <ul class="nav navbar-nav navbar-right">

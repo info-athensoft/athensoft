@@ -28,20 +28,14 @@ page.title.ecomm.myshopcart=My Shopping Cart
 # nav_inc.jsp
 #=================================
 menu.home=Home
-menu.website=Website
-menu.emarketing=e-Marketing
-#menu.ecomm=e-Commerce
-#menu.service=Services
+menu.ecomm=e-Commerce
+menu.service=Services
 menu.demo=Demos
 menu.events=Events
-#menu.affiliate=Affiliate Program
-menu.company=Company
-#menu.contact=Contact
-menu.support=Support
+menu.affiliate=Affiliate Program
+menu.about=About
+menu.contact=Contact
 menu.lang=Language
-
-menu.support.faq=FAQ
-menu.support.contact=Contact us
 
 lang.fr=Fran\u00e7ais
 lang.en=English
@@ -94,9 +88,12 @@ feature.btn.consult=View consultation
 feature.btn.train=View training
 feature.separator=\u2022
 
-feature.website=Website design
-feature.emarketing=e-Marketing
-feature.payment=Online Payment
+feature.site=Website
+feature.design=Design
+feature.ecomm=e-Commerce
+feature.payment=Payment
+feature.consult=Consulation
+feature.train=Training
 
 feature.desc.12_a=INFORMATIQUE ATHENSOFT is committed to design and build up stunning websites in high quality for individuals and businesses. We create responsive websites running on PC, Pad  or Smart phones  using  HTML5, CSS, jQuery, AJAX and effective framework technologies as well as  up-to-date dynamic web, database technologies. We are ready for adding value to your online presence.
 feature.desc.12_b=We can also promote your company image with well-designed website, exquisite product catalog brochure and business card.

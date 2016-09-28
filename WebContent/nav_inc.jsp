@@ -35,16 +35,24 @@
                 	<a href="index.jsp"><spring:message code="menu.home"/></a>
                 </li>
                 
-                <!-- events -->
+                <!-- website -->
                 <li id="website">
                 	<a href="service-website.do"><spring:message code="menu.website"/></a>
                 </li>
-                <!-- end events -->
+                <!-- end website -->
                 
+                <!-- website -->
+                <li id="emarketing">
+                	<a href="service-emarketing.do"><spring:message code="menu.emarketing"/></a>
+                </li>
+                <!-- end website -->
+                
+                <!-- 
                 <li id="service" class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.emarketing"/> <span class="caret"></span></a>
                 </li>
-                
+                 -->
+                 
                 <!-- demo -->
                 <li id="demo">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.demo"/> <span class="caret"></span></a>

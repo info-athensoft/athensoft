@@ -79,8 +79,8 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>网站开发•服务项目</h2>
-		  <p>为您提供一站式解决方案</p>
+	    <h2>网络推广•服务项目</h2>
+		  <p>让更多客户找到您</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>
@@ -102,21 +102,21 @@
         <a href="website_ws1.do">
           <img class="" src="content/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
-          <h3><a href="website_ws1.do">方案策划</a></h3>
+          <h3><a href="website_ws1.do">手机短信推送</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="website_ws5.do">
           <img class="" src="content/img/website/3-3.jpg" alt="Generic placeholder image">
          </a>
-          <h3><a href="website_ws5.do">网站设计</a></h3>
+          <h3><a href="website_ws5.do">电子邮件营销</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="website_ws2.do">
           <img class="" src="content/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
          </a>
-          <h3><a href="website_ws2.do">网站维护</a></h3>
+          <h3><a href="website_ws2.do">社交网络推广</a></h3>
         </div><!-- /.col-lg-4 -->
         
       </div><!-- /.row -->   
@@ -126,21 +126,21 @@
         <a href="website_ws3.do">
           <img class="" src="content/img/website/3-5.jpg" alt="Generic placeholder image">
         </a>
-          <h3><a href="website_ws3.do">主机代理</a></h3>
+          <h3><a href="website_ws3.do">搜索引擎优化</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
           <a href="website_ws6.do">
           <img class="" src="content/img/website/3-6.jpg" alt="Generic placeholder image">
           </a>
-          <h3><a href="website_ws6.do">域名代理</a></h3>
+          <h3><a href="website_ws6.do">网站数据分析</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
         <a href="website_ws4.do">
           <img class="" src="content/img/website/3-1.jpg" alt="Generic placeholder image">
           </a>
-          <h3><a href="website_ws4.do">咨询服务</a></h3>
+          <h3><a href="website_ws4.do">ADOGO平台推广</a></h3>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -152,7 +152,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">网站方案策划</h2>
+          <h2 class="featurette-heading">手机短信推送</h2>
           <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
           <ul>
           	<li>准备好一个响亮的域名</li>
@@ -177,7 +177,7 @@
           <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/2.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">网站开发</h2>
+          <h2 class="featurette-heading">电子邮件营销</h2>
           <p class="lead">“我想做什么样的网站？”——这是一个您心里最明白但又往往难以完美表达的普遍问题。其实要弄清楚非常简单，只需要考虑以下几点：</p>
           <ul>
           	<li>个人网站还是公司网站</li>
@@ -196,7 +196,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">网站维护</h2>
+          <h2 class="featurette-heading">社交网络推广</h2>
           <p class="lead">一个专业和规范的网站设计团队会严格遵循软件设计流程和技术行业商业流程的规则，与客户一道共同完成网站项目的各个阶段，依次包含：</p>
           <ul>
             <li>业务意向达成</li>
@@ -223,7 +223,7 @@
           <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">域名代理</h2>
+          <h2 class="featurette-heading">搜索引擎优化</h2>
           <p class="lead">从客户的角度来说，网站的成本一般分为域名空间服务费、设计开发费、运营维护费等部分。通常意义上的“做网站的费用”是网站开发商收取的设计开发费，其它部分需缴纳给相应的服务提供商。部分网站开发商可以代理域名空间购置和运营维护。设计费用没有具体定数和统一标准，但基本上按照工作量，复杂程度，设计精细度等方面估算：</p>
            <ul>
             <li>网站外观设计的美观度</li>
@@ -244,7 +244,7 @@
 	
 	<div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">主机代理</h2>
+          <h2 class="featurette-heading">网站数据分析</h2>
           <p class="lead">一个专业和规范的网站设计团队会严格遵循软件设计流程和技术行业商业流程的规则，与客户一道共同完成网站项目的各个阶段，依次包含：</p>
           <ul>
             <li>业务意向达成</li>
@@ -271,7 +271,7 @@
           <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">技术咨询</h2>
+          <h2 class="featurette-heading">ADOGO平台推广</h2>
           <p class="lead">从客户的角度来说，网站的成本一般分为域名空间服务费、设计开发费、运营维护费等部分。通常意义上的“做网站的费用”是网站开发商收取的设计开发费，其它部分需缴纳给相应的服务提供商。部分网站开发商可以代理域名空间购置和运营维护。设计费用没有具体定数和统一标准，但基本上按照工作量，复杂程度，设计精细度等方面估算：</p>
            <ul>
             <li>网站外观设计的美观度</li>

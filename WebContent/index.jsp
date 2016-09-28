@@ -140,7 +140,7 @@
        
       <div class="row">
       	<div class="col-lg-4">
-          <a href="ecomm.do">
+          <a href="#">
           <img class="img-circle" src="content/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.website"/></h2>
@@ -152,7 +152,7 @@
         </div>      
       
         <div class="col-lg-4">
-          <a href="website.do">
+          <a href="#">
           <img class="img-circle" src="content/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.emarketing"/></h2>
@@ -164,7 +164,7 @@
         </div>       
         
         <div class="col-lg-4">
-          <a href="training.do">
+          <a href="#">
           <img class="img-circle" src="content/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.payment"/></h2>

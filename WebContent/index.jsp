@@ -140,26 +140,26 @@
        
       <div class="row">
       	<div class="col-lg-4">
-          <a href="#">
+          <a href="service-website.do">
           <img class="img-circle" src="content/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.website"/></h2>
           <p><spring:message code="feature.desc.34_a"/></p>
           <p><spring:message code="feature.desc.34_b"/></p>
           <p class="withBtn">
-          	<a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.readmore"/></a>
+          	<a class="btn btn-default" href="service-website.do" role="button"><spring:message code="feature.btn.readmore"/></a>
           </p>
         </div>      
       
         <div class="col-lg-4">
-          <a href="#">
+          <a href="service-emarketing.do">
           <img class="img-circle" src="content/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.emarketing"/></h2>
           <p><spring:message code="feature.desc.12_a"/></p>
 		  <p><spring:message code="feature.desc.12_b"/></p>
           <p class="withBtn">
-          	<a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.readmore"/></a>
+          	<a class="btn btn-default" href="service-emarketing.do" role="button"><spring:message code="feature.btn.readmore"/></a>
 		  </p>
         </div>       
         

@@ -102,7 +102,7 @@
         <a href="website_ws1.do">
           <img class="" src="content/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
-          <h3><a href="website_ws1.do">方案策划</a></h3>
+          <h3><a href="service-website-planning.do">方案策划</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">

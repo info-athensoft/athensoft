@@ -16,6 +16,11 @@ public class GlobalController {
 		return "service-emarketing";
 	}
 	
+	@RequestMapping("/service-website-planning.do")
+	public String gotoWebsite1(){
+		return "service-website-1";
+	}
+	
 	/*
 	@RequestMapping("/website_custom.do")
 	public String gotoWebsiteCustom(){

@@ -57,8 +57,8 @@
                 <li id="demo">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.demo"/> <span class="caret"></span></a>
                 	<ul class="dropdown-menu" role="menu">
-                    <li><a href="demo.do"><spring:message code="demo.canvas"/></a></li>
-                    <li><a href="demo_enar.do"><spring:message code="demo.enar"/></a></li>
+                    <li><a href="#"><spring:message code="demo.canvas"/></a></li>
+                    <li><a href="#"><spring:message code="demo.enar"/></a></li>
                   </ul>
                 </li>
                 <!-- end demo -->
@@ -73,7 +73,7 @@
                 
                 <!-- company -->
                 <li id="company">
-                	<a href="events.do"><spring:message code="menu.company"/></a>
+                	<a href="#"><spring:message code="menu.company"/></a>
                 </li>
                 <!-- end company -->
                 

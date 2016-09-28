@@ -137,6 +137,7 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
+       
       <div class="row">
       	<div class="col-lg-4">
           <a href="ecomm.do">
@@ -146,10 +147,9 @@
           <p><spring:message code="feature.desc.34_a"/></p>
           <p><spring:message code="feature.desc.34_b"/></p>
           <p class="withBtn">
-          	<a class="btn btn-default" href="ecomm.do" role="button"><spring:message code="feature.btn.ecomm"/></a>
-          	<a class="btn btn-default" href="payment.do" role="button"><spring:message code="feature.btn.payment"/></a>
+          	<a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.readmore"/></a>
           </p>
-        </div><!-- /.col-lg-4 -->      
+        </div>      
       
         <div class="col-lg-4">
           <a href="website.do">
@@ -158,9 +158,10 @@
           <h2><spring:message code="feature.emarketing"/></h2>
           <p><spring:message code="feature.desc.12_a"/></p>
 		  <p><spring:message code="feature.desc.12_b"/></p>
-          <p class="withBtn"><a class="btn btn-default" href="website.do" role="button"><spring:message code="feature.btn.website"/></a> 
-          <a class="btn btn-default" href="design.do" role="button"><spring:message code="feature.btn.design"/></a></p>
-        </div><!-- /.col-lg-4 -->       
+          <p class="withBtn">
+          	<a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.readmore"/></a>
+		  </p>
+        </div>       
         
         <div class="col-lg-4">
           <a href="training.do">
@@ -169,13 +170,16 @@
           <h2><spring:message code="feature.payment"/></h2>
           <p><spring:message code="feature.desc.56_a"/></p>
 		  <p><spring:message code="feature.desc.56_b"/></p>
-          <p class="withBtn"><a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.consult"/></a>
-          <a class="btn btn-default" href="training.do" role="button"><spring:message code="feature.btn.train"/></a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+          <p class="withBtn">
+          	<a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.readmore"/></a>
+          </p>
+        </div>
+      </div>
+       
+      <!-- /.row -->
 
       <!-- START THE FEATURETTES -->
-      
+ <!--      
       <hr class="featurette-divider"/>
 
 	  <div class="row featurette">
@@ -211,7 +215,7 @@
           <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/home/c3.jpg" data-holder-rendered="true">
         </div>
       </div>
-
+ -->
      <!-- /END THE FEATURETTES -->
 	<hr class="athensoft-divider2"/>
 
@@ -219,7 +223,7 @@
 	  <!-- Partner -->
 	   <div class="row">
 		<div class="col-md-12">
-			<div style="text-align:center"><h3>Our partners</h3></div>
+			<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
             <!-- Carousel items -->
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>

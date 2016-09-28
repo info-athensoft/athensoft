@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class GlobalController {
 	
-	@RequestMapping("/website.do")
+	@RequestMapping("/service-website.do")
 	public String gotoWebsite(){
-		System.out.println("servlet website.do");
-		return "website";
+		return "service-website";
 	}
 	
+	/*
 	@RequestMapping("/website_custom.do")
 	public String gotoWebsiteCustom(){
 		System.out.println("servlet website_custom.do");
@@ -90,4 +90,5 @@ public class GlobalController {
 		System.out.println("servlet about.do");
 		return "about";
 	}
+	*/
 }

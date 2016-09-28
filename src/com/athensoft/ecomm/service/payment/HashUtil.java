@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import com.athensoft.ecomm.entity.shopping.ItemCart;
 
 public class HashUtil {
 	@SuppressWarnings("rawtypes")

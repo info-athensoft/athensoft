@@ -35,9 +35,11 @@
                 	<a href="index.jsp"><spring:message code="menu.home"/></a>
                 </li>
                 
-                <li id="ecomm" class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.website"/> <span class="caret"></span></a>
+                <!-- events -->
+                <li id="website">
+                	<a href="service-website.do"><spring:message code="menu.website"/></a>
                 </li>
+                <!-- end events -->
                 
                 <li id="service" class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.emarketing"/> <span class="caret"></span></a>

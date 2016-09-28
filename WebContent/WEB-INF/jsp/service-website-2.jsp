@@ -79,8 +79,8 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>网站开发•方案策划</h2>
-		  <p>业务、功能、外观、维护、运营多角度策划</p>
+	    <h2>网站开发•网站设计</h2>
+		  <p>视觉外观、功能应用、系统架构、数据模型全面设计</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
@@ -100,7 +100,7 @@
         
         <div class="col-lg-9">
           	
-          	<h2>什么是网站方案策划？</h2>
+          	<h2>什么是网站设计？</h2>
 	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
 	          <ul>
 	          	<li>准备好一个响亮的域名</li>
@@ -112,13 +112,14 @@
 	        
 	        <hr class="athensoft-divider2">
           	
-          	<h2>如何进行网站方案策划？</h2>
+          	<h2>网站设计基本流程</h2>
 	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
 	          <ul>
-	          	<li>收集客户需求</li>
-	          	<li>分析客户业务</li>
-	          	<li>制定网站方案</li>
-	          	<li>估算项目成本</li>
+	          	<li>网站风格与主题设计</li>
+	          	<li>网站图文内容排版</li>
+	          	<li>功能设计与开发（可选）</li>
+	          	<li>数据库设计与开发（可选）</li>
+	          	<li>网站测试与发布</li>
 	          </ul>
 	          
 	        <hr class="athensoft-divider2">
@@ -146,7 +147,7 @@
         </div><!-- /.col-lg-4 -->
         
         <div class="col-sm-3 blog-sidebar">
-         <jsp:include page="service-website-sidebar-inc.jsp"></jsp:include>
+          <jsp:include page="service-website-sidebar-inc.jsp"></jsp:include>
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       

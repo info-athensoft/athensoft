@@ -99,48 +99,48 @@
       <div class="row">     	
         
         <div class="col-lg-4">
-        <a href="website_ws1.do">
+        <a href="service-website-planning.do">
           <img class="" src="content/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
           <h3><a href="service-website-planning.do">方案策划</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-         <a href="website_ws5.do">
+         <a href="service-website-design.do">
           <img class="" src="content/img/website/3-3.jpg" alt="Generic placeholder image">
          </a>
-          <h3><a href="website_ws5.do">网站设计</a></h3>
+          <h3><a href="service-website-design.do">网站设计</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-         <a href="website_ws2.do">
+         <a href="service-website-maintaining.do">
           <img class="" src="content/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
          </a>
-          <h3><a href="website_ws2.do">网站维护</a></h3>
+          <h3><a href="service-website-maintaining.do">网站维护</a></h3>
         </div><!-- /.col-lg-4 -->
         
       </div><!-- /.row -->   
       
       <div class="row"> 	
         <div class="col-lg-4">
-        <a href="website_ws3.do">
+        <a href="#">
           <img class="" src="content/img/website/3-5.jpg" alt="Generic placeholder image">
         </a>
-          <h3><a href="website_ws3.do">主机代理</a></h3>
+          <h3><a href="#">主机代理</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-          <a href="website_ws6.do">
+          <a href="#">
           <img class="" src="content/img/website/3-6.jpg" alt="Generic placeholder image">
           </a>
-          <h3><a href="website_ws6.do">域名代理</a></h3>
+          <h3><a href="#">域名代理</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-        <a href="website_ws4.do">
+        <a href="#">
           <img class="" src="content/img/website/3-1.jpg" alt="Generic placeholder image">
           </a>
-          <h3><a href="website_ws4.do">咨询服务</a></h3>
+          <h3><a href="#">咨询服务</a></h3>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 

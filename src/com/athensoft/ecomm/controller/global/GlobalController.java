@@ -6,19 +6,32 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class GlobalController {
 	
+	/* website */
 	@RequestMapping("/service-website.do")
 	public String gotoWebsite(){
 		return "service-website";
 	}
 	
-	@RequestMapping("/service-emarketing.do")
-	public String gotoEmarketing(){
-		return "service-emarketing";
-	}
-	
 	@RequestMapping("/service-website-planning.do")
 	public String gotoWebsite1(){
 		return "service-website-1";
+	}
+	
+	@RequestMapping("/service-website-design.do")
+	public String gotoWebsite2(){
+		return "service-website-2";
+	}
+	
+	@RequestMapping("/service-website-maintaining.do")
+	public String gotoWebsite3(){
+		return "service-website-3";
+	}
+	
+	
+	/* e-marketing */
+	@RequestMapping("/service-emarketing.do")
+	public String gotoEmarketing(){
+		return "service-emarketing";
 	}
 	
 	/*

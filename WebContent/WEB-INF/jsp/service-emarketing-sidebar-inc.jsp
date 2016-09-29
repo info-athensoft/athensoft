@@ -13,15 +13,14 @@
 <!-- ENDS i18n -->
 
 <div class="sidebar-module">
-            <h4>网站服务项目</h4>
+            <h4>网络推广服务项目</h4>
             <ol class="list-unstyled">
-              <li><a href="service-website-planning.do">方案策划</a></li>
-              <li><a href="service-website-design.do">网站设计</a></li>
-              <li><a href="service-website-maintaining.do">网站维护</a></li>
-              <li><a href="service-website-hosting.do">主机代理</a></li>
-              <li><a href="service-website-domainname.do">域名代理</a></li>
-              <li><a href="service-website-advising.do">技术咨询</a></li>
-              <li><a href="#">平面设计</a></li>
+              <li><a href="service-emarketing-adogo.do">ADOGO平台推广</a></li>
+              <li><a href="service-emarketing-textmsg.do">手机短信推送</a></li>
+              <li><a href="service-emarketing-email.do">电子邮件广告</a></li>
+              <li><a href="service-emarketing-smm.do">社交网络营销</a></li>
+              <li><a href="service-emarketing-seo.do">搜索引擎优化</a></li>
+              <li><a href="service-emarketing-webanalysis.do">网站数据分析</a></li>
             </ol>
           </div>
           <br/>
@@ -29,9 +28,11 @@
           <div class="sidebar-module sidebar-module-inset">
             <h4>成本价格估算</h4>
             <ol class="list-unstyled">
-              <li><a href="#">网站设计价格估算器</a></li>
-              <li><a href="#">网站维护价格估算器</a></li>
-              <li><a href="#">主机域名价格估算器</a></li>
+              <li><a href="#">手机短信推送服务价格</a></li>
+              <li><a href="#">电子邮件广告服务价格</a></li>
+              <li><a href="#">社交网路营销服务价格</a></li>
+              <li><a href="#">搜索引擎优化服务价格</a></li>
+              <li><a href="#">网站数据分析服务价格</a></li>
             </ol>
           </div>
           <br/>

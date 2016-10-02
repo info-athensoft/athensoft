@@ -57,8 +57,8 @@
                 <li id="demo">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.demo"/> <span class="caret"></span></a>
                 	<ul class="dropdown-menu" role="menu">
-                    <li><a href="#"><spring:message code="demo.canvas"/></a></li>
-                    <li><a href="#"><spring:message code="demo.enar"/></a></li>
+                    <li><a href="#"><spring:message code="menu.demo.function"/></a></li>
+                    <li><a href="#"><spring:message code="menu.demo.case"/></a></li>
                   </ul>
                 </li>
                 <!-- end demo -->

@@ -79,8 +79,8 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>网站开发•服务项目</h2>
-		  <p>为您提供一站式解决方案</p>
+	    <h2>样例展示•功能组件</h2>
+		  <p>标准化组件提高开发效率、增强应用稳定性</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>

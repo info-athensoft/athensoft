@@ -42,6 +42,11 @@ public class GlobalController {
 		return "service-website-6";
 	}
 	
+	@RequestMapping("/service-ecomm-payment.do")
+	public String gotoEcomm1(){
+		return "service-ecomm-1";
+	}
+	
 	/* e-marketing */
 	@RequestMapping("/service-emarketing.do")
 	public String gotoEmarketingHome(){
@@ -78,6 +83,12 @@ public class GlobalController {
 		return "service-emarketing-6";
 	}
 	
+	/* design */
+	@RequestMapping("/service-design.do")
+	public String gotoDesignHome(){
+		return "service-design";
+	}
+	
 	/* demo */
 	@RequestMapping("/demo.do")
 	public String gotoDemoHome(){
@@ -98,6 +109,28 @@ public class GlobalController {
 	public String gotoDemo3(){
 		return "demo-3";
 	}
+	
+	/* help center */
+	@RequestMapping("/support.do")
+	public String gotoSupportHome(){
+		return "support";
+	}
+	
+	@RequestMapping("/support-faq.do")
+	public String gotoSupport1(){
+		return "support-faq";
+	}
+	
+	@RequestMapping("/support-human.do")
+	public String gotoSupport2(){
+		return "support-human";
+	}
+	
+	@RequestMapping("/support-contactus.do")
+	public String gotoSupport3(){
+		return "support-contactus";
+	}
+	
 	
 	
 	

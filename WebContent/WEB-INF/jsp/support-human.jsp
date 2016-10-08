@@ -79,11 +79,11 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>网站开发•网站设计</h2>
-		  <p>视觉外观、功能应用、系统架构、数据模型全面设计</p>
+	    <h2>帮助中心•人工服务</h2>
+		  <p>人工客服竭诚为您解答问题</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
+		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
@@ -99,50 +99,85 @@
       <div class="row">     	
         
         <div class="col-lg-9">
-          	<ol class="breadcrumb">
-			  <li><a href="#">首页</a></li>
-			  <li><a href="service-website.do">网站设计服务项目</a></li>
-			  <li class="active">网站设计</li>
-			</ol>
-			
-          	<h2>什么是网站设计？</h2>
-	          <p class="lead">网站制作，有时被人们习惯地称为网站设计。网站设计，通俗地说就是网站关于主题样式设计，页面布局，图片文字处理，程序设计，数据库设计等一系列工作的总和。网站制作是策划师、网络程序员、网页设计师等专业人员，应用各种网络软件开发技术和网页设计技术，在互联网上建设站点，并包含域名注册和主机托管等服务的总称。</p>
-	        
-	        <hr class="athensoft-divider2">
+        
+        <div class="input-group">
+	      <input type="text" class="form-control" placeholder="Input the keywords of your question">
+	      <span class="input-group-btn">
+	        <button class="btn btn-default" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;搜索&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+	      </span>
+	    </div><!-- search bar -->
           	
-          	<h2>网站设计内容详情</h2>
-	          <p class="lead">网站设计具体内容一般包括：风格与主题设计、图文内容排版、系统架构设计、功能设计与开发、数据库设计与开发、网站测试与发布等。</p>
-	          <ol>
-	          	<li>网站风格与主题设计 - 我们为您提供了丰富的网站风格和主题，您可以根据业务的需要选择自己喜欢的风格和主题。</li>
-	          	<li>网站图文内容排版 - 我们根据您的业务需求和用户的使用习惯来安排和调整网站版式，让您的网站看起来更友好。</li>
-	          	<li>功能设计与开发（可选）- 我们根据您的业务需要增加相应的业务功能，如用户注册、产品管理、消息管理、在线支付等等。</li>
-	          	<li>数据库设计与开发（可选）- 强大的后台数据库可以支持复杂的业务功能、让您轻松地维护自己的业务数据。</li>
-	          	<li>网站测试与发布 - 保证网站发布质量，给您的用户提供质量有保证的网站体验。</li>
-	          </ol>
-	          
-	        <hr class="athensoft-divider2">
-          	
-          	
-          	<h2>客户须知</h2>
-	          <p class="lead">关于网站设计，您需要了解和同意以下内容和条款：</p>
+          	<h2>手机短信推送服务简介</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
 	          <ul>
-	          	<li>网站设计工作必须在双方签订服务协议以后方可进行</li>
-	          	<li>当前网站设计工作内容须严格按照需求确认书的有关内容进行，双方都不得单方面擅自变更需求内容。</li>
-	          	<li>若客户方提出变更需求内容时，需经过双方协商并文字备案，增加到协议附件中；由此引起的额外费用和工期延长后果需由客户方承担。</li>
-	          	<li>外观和主题设计须在功能设计之前进行，客户须及时对外观设计方案给出明确意见，否则项目无法继续进行，造成的延期和额外的费用由客户承担。</li>
-	          	<li>客户须尊重项目时间表，积极配合测试并及时反馈，以免不必要的损失</li>
-	          	<li>客户须准备好自己网站的文字、翻译、图片、音视频等资源文件，对其负责，保证其合法性、正确性和完整性，并及时提交</li>
-	          	<li>如果客户需要文案、翻译、图形图像处理、摄影、音视频剪辑制作等配套服务，须按相应的收费标准购买所需服务；客户亦可以从第三方获得这些服务</li>
+	          	<li>准备好一个响亮的域名</li>
+	          	<li>咨询技术人员如何选购主机空间 &nbsp;&nbsp; <a href="http://www.dailyrazor.com/affiliate//idevaffiliate.php?id=2755">点击这里，我们为您解决</a></li>
+	          	<li>联系一家颇具实力的网站开发商</li>
+	          	<li>制定好您将展示在互联网上的业务方案</li>
+	          	<li>制定好符合当前业务需要的网站预算方案</li>
 	          </ul>
 	        
 	        <hr class="athensoft-divider2">
+	        
+	        <h2>手机短信推送服务内容</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>准备好一个响亮的域名</li>
+	          	<li>咨询技术人员如何选购主机空间 &nbsp;&nbsp; <a href="http://www.dailyrazor.com/affiliate//idevaffiliate.php?id=2755">点击这里，我们为您解决</a></li>
+	          	<li>联系一家颇具实力的网站开发商</li>
+	          	<li>制定好您将展示在互联网上的业务方案</li>
+	          	<li>制定好符合当前业务需要的网站预算方案</li>
+	          </ul>
+	        
+	        <hr class="athensoft-divider2">
+          	
+          	<h2>如何获得该项服务？</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>收集客户需求</li>
+	          	<li>分析客户业务</li>
+	          	<li>制定网站方案</li>
+	          	<li>估算项目成本</li>
+	          </ul>
 	          
-	        <h2>常见问题</h2>
-	          <p class="lead">查看更多相关问题请点击<a href="support-faq.do">帮助中心</a></p>
+	        <hr class="athensoft-divider2">
+          	
+          	<h2>服务参考价格</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>收集客户需求</li>
+	          	<li>分析客户业务</li>
+	          	<li>制定网站方案</li>
+	          	<li>估算项目成本</li>
+	          </ul>
+	          
+	        <hr class="athensoft-divider2">
+	          
+	        <h2>为什么选择我们?</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>收集客户需求</li>
+	          	<li>分析客户业务</li>
+	          	<li>制定网站方案</li>
+	          	<li>估算项目成本</li>
+	          </ul>
+	        
+	        <hr class="athensoft-divider2"> 
+	         
+	          <h2>客户须知</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>收集客户需求</li>
+	          	<li>分析客户业务</li>
+	          	<li>制定网站方案</li>
+	          	<li>估算项目成本</li>
+	          </ul>
+	        
+	        
         </div><!-- /.col-lg-4 -->
         
         <div class="col-sm-3 blog-sidebar">
-          <jsp:include page="service-website-sidebar-inc.jsp"></jsp:include>
+         <jsp:include page="support-faq-sidebar-inc.jsp"></jsp:include>
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       
@@ -169,7 +204,7 @@
         </div>
         
         <div class="col-md-6">
-          <h3>为什么选择我们?</h3>
+          <h3>常见问题</h3>
           <p class="lead">从客户的角度来说，网站的成本一般分为域名空间服务费、设计开发费、运营维护费等部分。</p>
            <ul>
             <li>网站外观设计的美观度</li>

@@ -82,8 +82,9 @@
                 <li id="support">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.support"/> <span class="caret"></span></a>
                 	<ul class="dropdown-menu" role="menu">
-                    <li><a href="#"><spring:message code="menu.support.faq"/></a></li>
-                    <li><a href="#"><spring:message code="menu.support.contact"/></a></li>
+                    <li><a href="support-faq.do"><spring:message code="menu.support.faq"/></a></li>
+                    <li><a href="support-human.do"><spring:message code="menu.support.human"/></a></li>
+                    <li><a href="support-contactus.do"><spring:message code="menu.support.contact"/></a></li>
                   </ul>
                 </li>
                 <!-- end support -->

@@ -79,8 +79,8 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>网站开发•服务项目</h2>
-		  <p>为您提供一站式解决方案</p>
+	    <h2>平面设计•服务项目</h2>
+		  <p>WEB平面设计、广告设计、印刷品</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>
@@ -99,70 +99,29 @@
       <div class="row">     	
         
         <div class="col-lg-4">
-        <a href="service-website-planning.do">
+        <a href="#">
           <img class="" src="content/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
-          <h3><a href="service-website-planning.do">方案策划</a></h3>
+          <h3><a href="#">WEB平面设计</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-         <a href="service-website-design.do">
+         <a href="#">
           <img class="" src="content/img/website/3-3.jpg" alt="Generic placeholder image">
          </a>
-          <h3><a href="service-website-design.do">网站设计</a></h3>
+          <h3><a href="#">广告设计</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-         <a href="service-ecomm-payment.do">
+         <a href="#">
           <img class="" src="content/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
          </a>
-          <h3><a href="service-ecomm-payment.do">在线支付</a></h3>
+          <h3><a href="#">印刷品</a></h3>
         </div><!-- /.col-lg-4 -->
         
       </div><!-- /.row -->   
       
-      <div class="row"> 	
-        <div class="col-lg-4">
-        <a href="service-website-hosting.do">
-          <img class="" src="content/img/website/3-5.jpg" alt="Generic placeholder image">
-        </a>
-          <h3><a href="service-website-hosting.do">主机代理</a></h3>
-        </div><!-- /.col-lg-4 -->
-        
-        <div class="col-lg-4">
-          <a href="service-website-domainname.do">
-          <img class="" src="content/img/website/3-6.jpg" alt="Generic placeholder image">
-          </a>
-          <h3><a href="service-website-domainname.do">域名代理</a></h3>
-        </div><!-- /.col-lg-4 -->
-        
-        <div class="col-lg-4">
-        <a href="service-website-advising.do">
-          <img class="" src="content/img/website/3-1.jpg" alt="Generic placeholder image">
-          </a>
-          <h3><a href="service-website-advising.do">咨询服务</a></h3>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
       
-      <div class="row"> 	
-        <div class="col-lg-4">
-        <a href="service-website-maintaining.do">
-          <img class="" src="content/img/website/3-5.jpg" alt="Generic placeholder image">
-        </a>
-          <h3><a href="service-website-maintaining.do">网站维护</a></h3>
-        </div><!-- /.col-lg-4 -->
-        
-        <div class="col-lg-4">
-          <a href="service-design.do">
-          <img class="" src="content/img/website/3-6.jpg" alt="Generic placeholder image">
-          </a>
-          <h3><a href="service-design.do">平面设计</a></h3>
-        </div><!-- /.col-lg-4 -->
-        
-        <div class="col-lg-4">
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
      </div>
 
     <div class="container marketing">

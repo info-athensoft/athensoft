@@ -63,6 +63,10 @@
 	.marketing p.withBtn{
 		text-align:center;
 	}
+	
+	.marketing ul li{
+		text-align:left;
+	}
     </style>
     
   </head>
@@ -144,8 +148,15 @@
           <img class="img-circle" src="content/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.website"/></h2>
-          <p><spring:message code="feature.desc.34_a"/></p>
-          <p><spring:message code="feature.desc.34_b"/></p>
+          <p>专业设计形象宣传网站、产品展示网站、企业或组织网站及各类电商网站等，行业不限。PC端与移动端完美兼容。十五年专业品质，值得信赖！</p>
+          
+          <ul>
+          	<li>网站方案策划</li>
+          	<li>网站设计</li>
+          	<li>域名主机代理</li>
+          	<li>网站维护</li>
+          </ul>
+          
           <p class="withBtn">
           	<a class="btn btn-default" href="service-website.do" role="button"><spring:message code="feature.btn.readmore"/></a>
           </p>
@@ -156,8 +167,15 @@
           <img class="img-circle" src="content/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.emarketing"/></h2>
-          <p><spring:message code="feature.desc.12_a"/></p>
-		  <p><spring:message code="feature.desc.12_b"/></p>
+          <p>专业提供手机、网络、邮件、平台等宣传推广服务。可根据您的业务需求定制互联网营销策划方案。足不出户也能维护老客户，吸引新客户。</p>
+          
+          <ul>
+          	<li>ADOGO平台推广</li>
+          	<li>手机短信推送</li>
+          	<li>电子邮件营销</li>
+          	<li>社交网络推广</li>
+          </ul>
+          
           <p class="withBtn">
           	<a class="btn btn-default" href="service-emarketing.do" role="button"><spring:message code="feature.btn.readmore"/></a>
 		  </p>
@@ -168,8 +186,13 @@
           <img class="img-circle" src="content/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.payment"/></h2>
-          <p><spring:message code="feature.desc.56_a"/></p>
-		  <p><spring:message code="feature.desc.56_b"/></p>
+          <p>为企业和个人提供便捷、灵活、安全、可靠的在线支付解决方案。使您的网站支持信用卡（VISA, MasterCard）、借记卡、PayPal等多种在线结算方式。</p>
+          <ul>
+          	<li>在线支付流程实现</li>
+          	<li>电子购物车开发</li>
+          	<li>订单系统开发</li>
+          	<li>发票系统开发</li>
+          </ul>
           <p class="withBtn">
           	<a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.readmore"/></a>
           </p>
@@ -225,10 +248,10 @@
 		<div class="col-md-12">
 			<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
             <!-- Carousel items -->
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
+            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
+            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
+            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
+            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
 		</div><!--.Carousel-->
 		</div>
 	  <!-- End of partner -->

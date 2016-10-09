@@ -15,7 +15,7 @@
 	<div class="sidebar-module sidebar-module-inset">
             <h4>自助价格估算</h4>
             <ol class="list-unstyled">
-              <li><a href="#">网站设计价格估算器</a></li>
+              <li><a href="service-website-design-evaluation.do">网站设计价格估算器</a></li>
               <li><a href="#">网站维护价格估算器</a></li>
               <li><a href="#">主机域名价格估算器</a></li>
             </ol>

@@ -143,6 +143,13 @@ public class GlobalController {
 		return "company";
 	}
 	
+	/* service-website-design-evaluation */
+	@RequestMapping("/service-website-design-evaluation.do")
+	public String gotoServiceWebsiteDesignEvaluation(){
+		return "service-website-design-evaluation";
+	}
+	
+	
 	
 	/*
 	@RequestMapping("/website_custom.do")

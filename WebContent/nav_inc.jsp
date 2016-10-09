@@ -73,7 +73,7 @@
                 
                 <!-- company -->
                 <li id="company">
-                	<a href="#"><spring:message code="menu.company"/></a>
+                	<a href="company.do"><spring:message code="menu.company"/></a>
                 </li>
                 <!-- end company -->
                 

@@ -131,8 +131,17 @@ public class GlobalController {
 		return "support-contactus";
 	}
 	
+	/* events */
+	@RequestMapping("/events.do")
+	public String gotoEventsHome(){
+		return "events";
+	}
 	
-	
+	/* company */
+	@RequestMapping("/company.do")
+	public String gotoCompanyHome(){
+		return "company";
+	}
 	
 	
 	/*

@@ -15,12 +15,12 @@
 <div class="sidebar-module">
   <h4>热门常见问题</h4>
   <ol class="list-unstyled">
-    <li><a href="support-faq-article.do">1.为什么你是猪？</a></li>
-    <li><a href="support-faq-article.do">2.为什么你是死猪？</a></li>
-    <li><a href="support-faq-article.do">3.为什么你是肥猪？</a></li>
-    <li><a href="support-faq-article.do">4.为什么你是懒猪？</a></li>
-    <li><a href="support-faq-article.do">5.为什么你是臭猪？</a></li>
-    <li><a href="support-faq-article.do">6.为什么你是笨猪？</a></li>
+    <li><a href="support-faq-article.do">1.question1？</a></li>
+    <li><a href="support-faq-article.do">2.question2？</a></li>
+    <li><a href="support-faq-article.do">3.question3？</a></li>
+    <li><a href="support-faq-article.do">4.question4？</a></li>
+    <li><a href="support-faq-article.do">5.question5？</a></li>
+    <li><a href="support-faq-article.do">6.question6？</a></li>
   </ol>
 </div>
 <br/>

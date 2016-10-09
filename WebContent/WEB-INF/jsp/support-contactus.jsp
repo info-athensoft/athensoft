@@ -83,7 +83,7 @@
 		  <p>用任何一种方式都可以联系我们</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>
+		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

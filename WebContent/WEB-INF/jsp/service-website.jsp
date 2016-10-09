@@ -82,8 +82,8 @@
 	    <h2>网站开发•服务项目</h2>
 		  <p>为您提供一站式解决方案</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

@@ -82,8 +82,8 @@
 	    <h2>网络推广•服务项目</h2>
 		  <p>让更多客户找到您</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

@@ -31,7 +31,7 @@
           <br/>
 	
      <div class="sidebar-module">
-            <h4>网站服务项目</h4>
+            <h4>网站开发服务项目</h4>
             <ol class="list-unstyled">
               <li><a href="service-website-planning.do">方案策划</a></li>
               <li><a href="service-website-design.do">网站设计</a></li>

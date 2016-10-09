@@ -182,7 +182,7 @@
         </div>       
         
         <div class="col-lg-4">
-          <a href="#">
+          <a href="service-ecomm-payment.do">
           <img class="img-circle" src="content/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.payment"/></h2>
@@ -194,7 +194,7 @@
           	<li>发票系统开发</li>
           </ul>
           <p class="withBtn">
-          	<a class="btn btn-default" href="#" role="button"><spring:message code="feature.btn.readmore"/></a>
+          	<a class="btn btn-default" href="service-ecomm-payment.do" role="button"><spring:message code="feature.btn.readmore"/></a>
           </p>
         </div>
       </div>

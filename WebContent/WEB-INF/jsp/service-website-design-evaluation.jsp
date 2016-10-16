@@ -79,8 +79,8 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>网站开发•网站设计</h2>
-		  <p>视觉外观、功能应用、系统架构、数据模型全面设计</p>
+	    <h2>网站开发•自助报价</h2>
+		  <p>自助估算成本，选择合适方案</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
@@ -102,37 +102,52 @@
           	<ol class="breadcrumb">
 			  <li><a href="#">首页</a></li>
 			  <li><a href="service-website.do">网站开发服务项目</a></li>
-			  <li class="active">网站设计</li>
+			  <li class="active">网站设计价格估算器</li>
 			</ol>
 			
-          	<h2>EVALUATION!!!</h2>
+          	<h2>设计阶段价格估算</h2>
+          	<h3>网站基础架构</h3>
           	<div>
-          		Page<input type="radio" name="page" value="1"> Single
-  				<input type="radio" name="page" value="2"> Multiple <br />
-  				Language<input type="radio" name="lan" value="1"> Single
+          		网站页面类型	
+          		<input type="radio" name="page" value="1" class="form-control111"> Single
+  				<input type="radio" name="page" value="2" class="form-control111"> Multiple <br />
+  				页面语言
+  				<input type="radio" name="lan" value="1" class="form-control111"> Single
   				<input type="radio" name="lan" value="2"> Multiple <br />
-  				DB<input type="radio" name="db" value="0"> None
+  				数据库类型
+  				<input type="radio" name="db" value="0"> None
   				<input type="radio" name="db" value="1"> Single Language DB 
   				<input type="radio" name="db" value="2"> Multiple Language DB <br />
           		
 				<input type="button" name="cal_subtotal" value="Subtotal" onclick="basicSubtotal()">
-				<input name="basic_subtotal" type="text" value="0" id="basic_subtotal"> <br />
+				<input name="basic_subtotal" type="text" value="0" id="basic_subtotal">
+				
+				<br/>
           	</div>
           	
+          	<h3>网站主题与页面板式</h3>
           	<div>
-          		<input name="home_page" type="checkbox" value="1" id="home_page" checked="checked"  disabled="disabled">Home Pange ($120)<br />
-          		<input name="total_pages" type="text" value="0" id="total_pages"> Total pages ($60)<br />
-          		<input name="non_prod_pics" type="text" value="0" id="non_prod_pics"> Non Prod Pics ($5)<br />
-          		<input name="prod_pics" type="text" value="0" id="prod_pics"> Prod Pics ($2)<br />
-          		<input type="button" name="cal_subtotal" value="Subtotal" onclick="contentSubtotal()">
-				<input name="basic_subtotal" type="text" value="0" id="content_subtotal"> <br />
+          		<input name="home_page" type="checkbox" value="1" id="home_page" checked="checked"  disabled="disabled">Home Page ($120)<br/>
+          		<input name="total_pages" type="text" value="0" id="total_pages"> Total pages ($60)<br/>
           	</div>
           	
+          	<h3>图文内容编辑与排版</h3>
+          	<div>
+          		<input name="non_prod_pics" type="text" value="0" id="non_prod_pics"> Non Prod Pics ($5)<br/>
+          		<input name="prod_pics" type="text" value="0" id="prod_pics"> Prod Pics ($2)<br/>
+          		<input type="button" name="cal_subtotal" value="Subtotal" onclick="contentSubtotal()">
+				<input name="basic_subtotal" type="text" value="0" id="content_subtotal"> <br/>
+          	</div>
+          	
+          	<h3>业务功能选择</h3>
+			<div>
 			<input name="option[]" type="checkbox" value="500" id="option1" onchange="sum()">500 <br/>
 			<input name="option[]" type="checkbox" value="600" id="option2" onchange="sum()">600 <br/>
 			<input name="option[]" type="checkbox" value="1000" id="option3" onchange="sum()">500 <br/>
 			<input name="option[]" type="checkbox" value="1500" id="option4" onchange="sum()">600 <br/>
-			TOTAL<input name="total" type="text" value="0" id="total">
+			</div>
+			
+			SUBTOTAL<input name="total" type="text" value="0" id="total">
 	          
 	        <h2>常见问题</h2>
 	          <p class="lead">查看更多相关问题请点击<a href="support-faq.do">帮助中心</a></p>

@@ -12,7 +12,7 @@ public class GlobalController {
 		return "index";
 	}
 	
-	@RequestMapping("/index")
+	@RequestMapping("/index.do")
 	public String gotoIndex2(){
 		return "index";
 	}

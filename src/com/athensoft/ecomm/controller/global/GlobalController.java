@@ -6,129 +6,140 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class GlobalController {
 	
+	/* home and index */
+	@RequestMapping("/")
+	public String gotoIndex(){
+		return "index";
+	}
+	
+	@RequestMapping("/index")
+	public String gotoIndex2(){
+		return "index";
+	}
+	
 	/* website */
 	@RequestMapping("/service-website.do")
 	public String gotoWebsiteHome(){
-		return "service-website";
+		return "websiste/service-website";
 	}
 	
 	@RequestMapping("/service-website-planning.do")
 	public String gotoWebsite1(){
-		return "service-website-1";
+		return "websiste/service-website-1";
 	}
 	
 	@RequestMapping("/service-website-design.do")
 	public String gotoWebsite2(){
-		return "service-website-2";
+		return "websiste/service-website-2";
 	}
 	
 	@RequestMapping("/service-website-maintaining.do")
 	public String gotoWebsite3(){
-		return "service-website-3";
+		return "websiste/service-website-3";
 	}
 	
 	@RequestMapping("/service-website-hosting.do")
 	public String gotoWebsite4(){
-		return "service-website-4";
+		return "websiste/service-website-4";
 	}
 	
 	@RequestMapping("/service-website-domainname.do")
 	public String gotoWebsite5(){
-		return "service-website-5";
+		return "websiste/service-website-5";
 	}
 	
 	@RequestMapping("/service-website-advising.do")
 	public String gotoWebsite6(){
-		return "service-website-6";
+		return "websiste/service-website-6";
 	}
 	
 	@RequestMapping("/service-ecomm-payment.do")
 	public String gotoEcomm1(){
-		return "service-ecomm-1";
+		return "ecomm/service-ecomm-1";
 	}
 	
 	/* e-marketing */
 	@RequestMapping("/service-emarketing.do")
 	public String gotoEmarketingHome(){
-		return "service-emarketing";
+		return "emarketing/service-emarketing";
 	}
 	
 	@RequestMapping("/service-emarketing-textmsg.do")
 	public String gotoEmarketing1(){
-		return "service-emarketing-1";
+		return "emarketing/service-emarketing-1";
 	}
 	
 	@RequestMapping("/service-emarketing-email.do")
 	public String gotoEmarketing2(){
-		return "service-emarketing-2";
+		return "emarketing/service-emarketing-2";
 	}
 	
 	@RequestMapping("/service-emarketing-smm.do")
 	public String gotoEmarketing3(){
-		return "service-emarketing-3";
+		return "emarketing/service-emarketing-3";
 	}
 	
 	@RequestMapping("/service-emarketing-adogo.do")
 	public String gotoEmarketing4(){
-		return "service-emarketing-4";
+		return "emarketing/service-emarketing-4";
 	}
 	
 	@RequestMapping("/service-emarketing-seo.do")
 	public String gotoEmarketing5(){
-		return "service-emarketing-5";
+		return "emarketing/service-emarketing-5";
 	}
 	
 	@RequestMapping("/service-emarketing-webanalysis.do")
 	public String gotoEmarketing6(){
-		return "service-emarketing-6";
+		return "emarketing/service-emarketing-6";
 	}
 	
 	/* design */
 	@RequestMapping("/service-design.do")
 	public String gotoDesignHome(){
-		return "service-design";
+		return "design/service-design";
 	}
 	
 	/* demo */
 	@RequestMapping("/demo.do")
 	public String gotoDemoHome(){
-		return "demo";
+		return "demo/demo";
 	}
 	
 	@RequestMapping("/demo-function.do")
 	public String gotoDemo1(){
-		return "demo-1";
+		return "demo/demo-1";
 	}
 	
 	@RequestMapping("/demo-template.do")
 	public String gotoDemo2(){
-		return "demo-2";
+		return "demo/demo-2";
 	}
 	
 	@RequestMapping("/demo-case.do")
 	public String gotoDemo3(){
-		return "demo-3";
+		return "demo/demo-3";
 	}
 	
 	/* help center */
 	@RequestMapping("/support.do")
 	public String gotoSupportHome(){
-		return "support";
+		return "support/support";
 	}
 	
 	@RequestMapping("/support-faq.do")
 	public String gotoSupport1(){
-		return "support-faq";
+		return "support/support-faq";
 	}
 	
 	@RequestMapping("/support-human.do")
 	public String gotoSupport2(){
-		return "support-human";
+		return "support/support-human";
 	}
 	
 	@RequestMapping("/support-contactus.do")
 	public String gotoSupport3(){
-		return "support-contactus";
+		return "support/support-contactus";
 	}
 	
 	/* events */

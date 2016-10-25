@@ -15,6 +15,10 @@
 <fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- page variables  -->
+<c:set var="inc_dir" value="inc"/>
+<!-- ENDS page variables -->
+
 <!-- live demo urls -->
 <c:set var="url_server" value="http://localhost:8080"/> 
 <c:set var="url_server" value="http://www.athensoft.com"/>
@@ -88,7 +92,7 @@
   <body>
   	<!-- NAVBAR ================================================== -->
  	 <!-- Nav -->
-	  <jsp:include page="../../nav_inc.jsp"></jsp:include>	
+	  <jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	  <!-- End of Nav -->
 	
 	  <!-- Carousel ================================================== -->
@@ -380,13 +384,13 @@
 	<hr class="athensoft-divider2"/>
 
 	  <!-- Bottom -->
-	  <jsp:include page="../../bottom_inc.jsp"></jsp:include>	
+	  <jsp:include page="${inc_dir}/bottom_inc.jsp"></jsp:include>	
 	  <!-- End of Bottom -->
 
 	  <hr class="athensoft-divider"/>
 
       <!-- FOOTER -->
-      <jsp:include page="../../footer_inc.jsp"></jsp:include>
+      <jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
 	  <!-- FOOTER -->	  
     </div><!-- /.container -->
 

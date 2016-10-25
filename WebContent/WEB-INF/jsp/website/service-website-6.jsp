@@ -17,8 +17,7 @@
 <!-- ENDS i18n -->
 
 <!-- page variables  -->
-<c:set var="inc_dir" value="inc"/>
-<c:set var="support_dir" value="support"/>
+<c:set var="inc_dir" value="../inc"/>
 <!-- ENDS page variables -->
 
 <head>
@@ -84,11 +83,11 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>公司简介</h2>
-		  <p>简介、价值观、核心优势</p>
+	    <h2>网站开发•咨询服务</h2>
+		  <p>互联网技术、软件技术、电子商务、网络推广、IT技能与就业咨询</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
+		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
@@ -104,57 +103,110 @@
       <div class="row">     	
         
         <div class="col-lg-9">
-        
+          	<ol class="breadcrumb">
+			  <li><a href="#">首页</a></li>
+			  <li><a href="service-website.do">网站开发服务项目</a></li>
+			  <li class="active">咨询服务</li>
+			</ol>
+			
+          	<h2>咨询服务简介</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>准备好一个响亮的域名</li>
+	          	<li>咨询技术人员如何选购主机空间 &nbsp;&nbsp; <a href="http://www.dailyrazor.com/affiliate//idevaffiliate.php?id=2755">点击这里，我们为您解决</a></li>
+	          	<li>联系一家颇具实力的网站开发商</li>
+	          	<li>制定好您将展示在互联网上的业务方案</li>
+	          	<li>制定好符合当前业务需要的网站预算方案</li>
+	          </ul>
+	        
+	        <hr class="athensoft-divider2">
           	
-         <h3>公司背景</h3>
-          <p class="lead">Athensoft 成立于2008年，总部设立在加拿大魁北克，主营网站开发、移动应用、电子商务、轻量型ERP解决方案设计与实施以及IT技术咨询、培训等业务； 于2015年正式更名为Informatique Athensoft，并增加网络推广和在线品牌形象包装等业务； 2016年筹划并自主开发了<a href="http://www.adogo.ca">ADOGO 在线品牌形象与广告推广平台。</a><br/></p>
-         <hr class="athensoft-divider2">
-         
-         <h3>核心团队</h3> 
-          <p class="lead">Informatique Athensoft 团队的核心成员主要来自加拿大和中国，精通大型企业软件研发、电子商务软件研发、网站策划与运营、移动互联网与网络推广、商业智能与大数据应用等方面。<br/></p>
-         <hr class="athensoft-divider2">
-         
-         <h3>服务行业</h3> 
-          <p class="lead">Informatique Athensoft 致力于整合ERP，CRM，移动互联网，社交媒体等概念和技术，为企业和个人提供轻便灵活的IT解决方案，涉及进出口、贸易、物流、电子商务、支付、批发零售、餐饮、教育、旅游、专业服务等各行各业。<br/></p>
-         <hr class="athensoft-divider2">
-         
-         <h3>服务对象</h3> 
-          <p class="lead">Informatique Athensoft 主要服务北美和中国地区的广大中小企业和个人。 <br/></p>
-         <hr class="athensoft-divider2"> 
-         
-         <h3>价值观</h3>
-          <p class="lead">Informatique Athensoft 以市场为导向，与时俱进；以客户为中心，重视服务、品牌和口碑；着眼长远，与客户共同进步与发展。 抱团发展、合作共赢、踏实进取、回归本心。<br/></p>
-        <hr class="athensoft-divider2">
-          
-          <h3>核心优势</h3>
-          <p class="lead">
-          	以客户为中心，客户的认可是我们的价值<br/>
-          	以市场为导向，灵活前瞻的思维，创新和稳定相统一<br/>
-          	专业技术团队，技术全面、理论深厚、经验丰富<br/>
-          	科学高效管理，保证产品和服务的质量<br/>
-          	态度公平严谨，大小项目新老客户一视同仁<br/>
-          </p>
-          <div class="row">
-          	<div class="col-sm-7">
-	          	
-           </div><!-- end of inner row-8 -->
-           
-           <div class="col-sm-5">
-           </div>
-          </div><!-- end of inner row-4 -->
+          	<h2>咨询服务的范围</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>互联网技术及软件技术咨询</li>
+	          	<li>电子商务技术与运营咨询</li>
+	          	<li>网络推广策划与实施咨询</li>
+	          	<li>IT技能培训与就业指导</li>
+	          </ul>
+	          
+	        <hr class="athensoft-divider2">
+          	
+          	<h2>咨询服务收费标准</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>互联网技术及软件技术咨询</li>
+	          	<li>电子商务技术与运营咨询</li>
+	          	<li>网络推广策划与实施咨询</li>
+	          	<li>IT技能培训与就业指导</li>
+	          </ul>
+	          
+	        <hr class="athensoft-divider2">
+          	
+          	<h2>客户须知</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>收集客户需求</li>
+	          	<li>分析客户业务</li>
+	          	<li>制定网站方案</li>
+	          	<li>估算项目成本</li>
+	          </ul>
 	        
-	        
-        </div><!-- end of outter row-9 -->
+	        <hr class="athensoft-divider2">
+	          
+	        <h2>常见问题</h2>
+	          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+	          <ul>
+	          	<li>收集客户需求</li>
+	          	<li>分析客户业务</li>
+	          	<li>制定网站方案</li>
+	          	<li>估算项目成本</li>
+	          </ul>
+        </div><!-- /.col-lg-4 -->
         
         <div class="col-sm-3 blog-sidebar">
-         <jsp:include page="${support_dir}support-faq-sidebar-inc.jsp"></jsp:include>
+          <jsp:include page="service-website-sidebar-inc.jsp"></jsp:include>
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       
+      <hr class="athensoft-divider2"> 
      </div>
 
+	
 
     <div class="container marketing">
+      <!-- START THE FEATURETTES -->
+       <div class="row">
+        <div class="col-md-6">
+          <h3>顾客之声</h3>
+          <p class="lead">一个专业和规范的网站设计团队会严格遵循软件设计流程和技术行业商业流程的规则</p>
+          <ul>
+            <li>业务意向达成</li>
+          	<li>了解业务需求和设计要求</li>
+          	<li>签立服务合同或协议</li>
+          	<li>设计方案确定</li>
+          	<li>实施和构建</li>
+          	<li>验收和发布</li>
+          	<li>移交和维护</li>
+          </ul>
+        </div>
+        
+        <div class="col-md-6">
+          <h3>为什么选择我们?</h3>
+          <p class="lead">从客户的角度来说，网站的成本一般分为域名空间服务费、设计开发费、运营维护费等部分。</p>
+           <ul>
+            <li>网站外观设计的美观度</li>
+          	<li>实现视觉效果和用户体验复杂度</li>
+          	<li>网站网页数量的多寡</li>
+          	<li>网站功能的多寡与复杂程度</li>
+          	<li>网站数据量的多寡</li>
+          	<li>网站架构设计的灵活度</li>
+          	<li>运用技术的先进程度和实现的难易程度</li>
+          </ul>
+        </div>
+      </div>
+
+     <!-- /END THE FEATURETTES -->
      
 	 <hr class="athensoft-divider2">
 	 

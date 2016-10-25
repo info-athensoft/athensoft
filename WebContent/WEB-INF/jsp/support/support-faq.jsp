@@ -17,8 +17,7 @@
 <!-- ENDS i18n -->
 
 <!-- page variables  -->
-<c:set var="inc_dir" value="inc"/>
-<c:set var="support_dir" value="support"/>
+<c:set var="inc_dir" value="../inc"/>
 <!-- ENDS page variables -->
 
 <head>
@@ -84,8 +83,8 @@
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>公司简介</h2>
-		  <p>简介、价值观、核心优势</p>
+	    <h2>帮助中心•常见问题解答</h2>
+		  <p>迅速找到常见问题、解惑、提出新问题</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
@@ -105,41 +104,59 @@
         
         <div class="col-lg-9">
         
+        <div class="input-group">
+	      <input type="text" class="form-control" placeholder="Input the keywords of your question">
+	      <span class="input-group-btn">
+	        <button class="btn btn-default" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;搜索&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+	      </span>
+	    </div><!-- search bar -->
           	
-         <h3>公司背景</h3>
-          <p class="lead">Athensoft 成立于2008年，总部设立在加拿大魁北克，主营网站开发、移动应用、电子商务、轻量型ERP解决方案设计与实施以及IT技术咨询、培训等业务； 于2015年正式更名为Informatique Athensoft，并增加网络推广和在线品牌形象包装等业务； 2016年筹划并自主开发了<a href="http://www.adogo.ca">ADOGO 在线品牌形象与广告推广平台。</a><br/></p>
-         <hr class="athensoft-divider2">
-         
-         <h3>核心团队</h3> 
-          <p class="lead">Informatique Athensoft 团队的核心成员主要来自加拿大和中国，精通大型企业软件研发、电子商务软件研发、网站策划与运营、移动互联网与网络推广、商业智能与大数据应用等方面。<br/></p>
-         <hr class="athensoft-divider2">
-         
-         <h3>服务行业</h3> 
-          <p class="lead">Informatique Athensoft 致力于整合ERP，CRM，移动互联网，社交媒体等概念和技术，为企业和个人提供轻便灵活的IT解决方案，涉及进出口、贸易、物流、电子商务、支付、批发零售、餐饮、教育、旅游、专业服务等各行各业。<br/></p>
-         <hr class="athensoft-divider2">
-         
-         <h3>服务对象</h3> 
-          <p class="lead">Informatique Athensoft 主要服务北美和中国地区的广大中小企业和个人。 <br/></p>
-         <hr class="athensoft-divider2"> 
-         
-         <h3>价值观</h3>
-          <p class="lead">Informatique Athensoft 以市场为导向，与时俱进；以客户为中心，重视服务、品牌和口碑；着眼长远，与客户共同进步与发展。 抱团发展、合作共赢、踏实进取、回归本心。<br/></p>
+         <h2>常见问题</h2>
+          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+          <ul>
+          	<li>准备好一个响亮的域名</li>
+          	<li>咨询技术人员如何选购主机空间 &nbsp;&nbsp; <a href="http://www.dailyrazor.com/affiliate//idevaffiliate.php?id=2755">点击这里，我们为您解决</a></li>
+          	<li>联系一家颇具实力的网站开发商</li>
+          	<li>制定好您将展示在互联网上的业务方案</li>
+          	<li>制定好符合当前业务需要的网站预算方案</li>
+          </ul>
+        
         <hr class="athensoft-divider2">
-          
-          <h3>核心优势</h3>
-          <p class="lead">
-          	以客户为中心，客户的认可是我们的价值<br/>
-          	以市场为导向，灵活前瞻的思维，创新和稳定相统一<br/>
-          	专业技术团队，技术全面、理论深厚、经验丰富<br/>
-          	科学高效管理，保证产品和服务的质量<br/>
-          	态度公平严谨，大小项目新老客户一视同仁<br/>
-          </p>
+       
+       
+          <h2>我要提问</h2>
+          <p class="lead">在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
           <div class="row">
           	<div class="col-sm-7">
-	          	
+	          	<form class="form-horizontal">
+	          		<div class="form-group">
+				    <label for="inputPassword3" class="col-sm-2 control-label">您的姓名</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" id="inputPassword3" placeholder="Your name">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputEmail3" class="col-sm-2 control-label">电子邮件</label>
+				    <div class="col-sm-10">
+				      <input type="email" class="form-control" id="inputEmail3" placeholder="Your Email address">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group">
+				  	<label for="textQuestion" class="col-sm-2 control-label">您的问题</label>
+				    <div class="col-sm-10">
+				    <textarea class="form-control" rows="5" id="textQuestion" placeholder="Please briefly describe your question here"></textarea>
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-default">提问</button>
+				    </div>
+				  </div>
+				</form>
            </div><!-- end of inner row-8 -->
            
-           <div class="col-sm-5">
+           <div class="col-sm-4">
            </div>
           </div><!-- end of inner row-4 -->
 	        
@@ -147,7 +164,7 @@
         </div><!-- end of outter row-9 -->
         
         <div class="col-sm-3 blog-sidebar">
-         <jsp:include page="${support_dir}support-faq-sidebar-inc.jsp"></jsp:include>
+         <jsp:include page="support-faq-sidebar-inc.jsp"></jsp:include>
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       

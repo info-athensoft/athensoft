@@ -20,4 +20,14 @@
 		<property name="prefix" value="/WEB-INF/jsp/"></property>
 		<property name="suffix" value=".jsp"></property>
 	</bean>
+	
+	<mvc:resources mapping="/images/**" location="images/" /> 
+	<mvc:resources mapping="/img/**" location="content/img/" />
+	<mvc:resources mapping="/css/**" location="content/css/" />
+	<mvc:resources mapping="/scripts/**" location="scripts/" />
+	<mvc:resources mapping="/fonts/**" location="content/fonts/" />
+	<!-- 
+	<mvc:resources mapping="/customer/**" location="customer/" />
+	<mvc:resources mapping="/includes/**" location="includes/" />
+	 -->
 </beans>

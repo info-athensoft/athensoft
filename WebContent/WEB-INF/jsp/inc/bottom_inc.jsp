@@ -52,6 +52,6 @@
 		   <div class="col-md-3">
 		      <h4><spring:message code="bottom.header_4"/></h4>
 		       <p></p>
-					<img src="content/img/company/athens_wechat_qr.png" alt="athensoft 2D barcode" width="120"/>
+					<img src="/img/company/athens_wechat_qr.png" alt="athensoft 2D barcode" width="120"/>
 		   </div>	              
 	   </div>

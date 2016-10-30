@@ -32,15 +32,15 @@
     <title>Informatique Athensoft</title>
     
     <!-- Company Logo Icon -->
-    <link rel="icon" href="content/ico/favicon.ico">    
+    <link rel="icon" href="/content/ico/favicon.ico">    
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="content/css/bootstrap-theme111.min.css">  -->
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="content/css/custom/carousel.css">
-    <link rel="stylesheet" href="content/css/custom/athensoft.css">
+    <link rel="stylesheet" href="/css/custom/carousel.css">
+    <link rel="stylesheet" href="/css/custom/athensoft.css">
     
     
     <!-- Font -->     
@@ -94,7 +94,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
       	<div class="item active">
-          <img src="content/img/slide/b5.jpg" alt="Second slide">
+          <img src="/img/slide/b5.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1><spring:message code="slide.item.title_2"/></h1>
@@ -106,7 +106,7 @@
         </div>
       
         <div class="item">
-          <img src="content/img/slide/b4.jpg" alt="First slide">
+          <img src="/img/slide/b4.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1><spring:message code="slide.item.title_1"/></h1>
@@ -118,7 +118,7 @@
         </div>
         
         <div class="item">
-          <img src="content/img/slide/b6.jpg" alt="Third slide">
+          <img src="/img/slide/b6.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1><spring:message code="slide.item.title_3"/></h1>
@@ -151,7 +151,7 @@
       <div class="row">
       	<div class="col-lg-4">
           <a href="service-website.do">
-          <img class="img-circle" src="content/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.website"/></h2>
           <p>专业设计形象宣传网站、产品展示网站、企业或组织网站及各类电商网站等，行业不限。PC端与移动端完美兼容。十五年专业品质，值得信赖！</p>
@@ -170,7 +170,7 @@
       
         <div class="col-lg-4">
           <a href="service-emarketing.do">
-          <img class="img-circle" src="content/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.emarketing"/></h2>
           <p>专业提供手机、网络、邮件、平台等宣传推广服务。可根据您的业务需求定制互联网营销策划方案。足不出户也能维护老客户，吸引新客户。</p>
@@ -189,7 +189,7 @@
         
         <div class="col-lg-4">
           <a href="service-ecomm-payment.do">
-          <img class="img-circle" src="content/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           </a>
           <h2><spring:message code="feature.payment"/></h2>
           <p>为企业和个人提供便捷、灵活、安全、可靠的在线支付解决方案。使您的网站支持信用卡（VISA, MasterCard）、借记卡、PayPal等多种在线结算方式。</p>
@@ -279,12 +279,12 @@
 
     <!-- Bootstrap core JavaScript  ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/docs.min.js"></script>
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/docs.min.js"></script>
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="scripts/ie10-viewport-bug-workaround.js"></script>
+    <script src="/scripts/ie10-viewport-bug-workaround.js"></script>
   
   	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

@@ -18,7 +18,7 @@ public class GlobalController {
 	}
 	
 	/* website */
-	@RequestMapping("/website")
+	@RequestMapping("/service/website")
 	public String gotoWebsiteHome(){
 		return "websiste/service-website";
 	}

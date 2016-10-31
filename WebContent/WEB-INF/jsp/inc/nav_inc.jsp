@@ -32,18 +32,18 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li id="home">
-                	<a href="index.jsp"><spring:message code="menu.home"/></a>
+                	<a href="/"><spring:message code="menu.home"/></a>
                 </li>
                 
                 <!-- website -->
                 <li id="website">
-                	<a href="service-website.do"><spring:message code="menu.website"/></a>
+                	<a href="/service/website"><spring:message code="menu.website"/></a>
                 </li>
                 <!-- end website -->
                 
                 <!-- website -->
                 <li id="emarketing">
-                	<a href="service-emarketing.do"><spring:message code="menu.emarketing"/></a>
+                	<a href="/service/emarketing"><spring:message code="menu.emarketing"/></a>
                 </li>
                 <!-- end website -->
                 
@@ -57,15 +57,15 @@
                 <li id="demo">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.demo"/> <span class="caret"></span></a>
                 	<ul class="dropdown-menu" role="menu">
-                    <li><a href="demo-function.do"><spring:message code="menu.demo.function"/></a></li>
-                    <li><a href="demo-case.do"><spring:message code="menu.demo.case"/></a></li>
+                    <li><a href="/demo/function"><spring:message code="menu.demo.function"/></a></li>
+                    <li><a href="/demo/case"><spring:message code="menu.demo.case"/></a></li>
                   </ul>
                 </li>
                 <!-- end demo -->
                 
                 <!-- events -->
                 <li id="events">
-                	<a href="events.do"><spring:message code="menu.events"/></a>
+                	<a href="/events"><spring:message code="menu.events"/></a>
                 </li>
                 <!-- end events -->
                 
@@ -73,7 +73,7 @@
                 
                 <!-- company -->
                 <li id="company">
-                	<a href="company.do"><spring:message code="menu.company"/></a>
+                	<a href="/about/company"><spring:message code="menu.company"/></a>
                 </li>
                 <!-- end company -->
                 
@@ -82,9 +82,9 @@
                 <li id="support">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.support"/> <span class="caret"></span></a>
                 	<ul class="dropdown-menu" role="menu">
-                    <li><a href="support-faq.do"><spring:message code="menu.support.faq"/></a></li>
-                    <li><a href="support-human.do"><spring:message code="menu.support.human"/></a></li>
-                    <li><a href="support-contactus.do"><spring:message code="menu.support.contact"/></a></li>
+                    <li><a href="/support/faq"><spring:message code="menu.support.faq"/></a></li>
+                    <li><a href="/support/human"><spring:message code="menu.support.human"/></a></li>
+                    <li><a href="/support/contactus"><spring:message code="menu.support.contact"/></a></li>
                   </ul>
                 </li>
                 <!-- end support -->

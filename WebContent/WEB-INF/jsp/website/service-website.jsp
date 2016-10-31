@@ -31,25 +31,25 @@
     <title>Informatique Athensoft</title>
     
     <!-- Company Logo Icon -->
-    <link rel="icon" href="content/ico/favicon.ico">    
+    <link rel="icon" href="/ico/favicon.ico">    
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="content/css/bootstrap.min.css">
-    <link rel="stylesheet" href="content/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="content/css/docs.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/docs.min.css">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="content/css/custom/carousel.css">
-    <link rel="stylesheet" href="content/css/custom/athensoft.css">
+    <link rel="stylesheet" href="/css/custom/carousel.css">
+    <link rel="stylesheet" href="/css/custom/athensoft.css">
     
     <!-- Font -->
      
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     
     <!--
-    <link href="content/font/opensans-light-webfront.woff" rel='stylesheet' type='text/css'>
-    <link href="content/font/opensans-light-webfront.ttf" rel='stylesheet' type='text/css'>
-    <link href="content/font/opensans-light-webfront.svg" rel='stylesheet' type='text/css'>
+    <link href="/font/opensans-light-webfront.woff" rel='stylesheet' type='text/css'>
+    <link href="/font/opensans-light-webfront.ttf" rel='stylesheet' type='text/css'>
+    <link href="/font/opensans-light-webfront.svg" rel='stylesheet' type='text/css'>
      -->
      
     <!-- local css in page scope -->
@@ -104,21 +104,21 @@
         
         <div class="col-lg-4">
         <a href="service-website-planning.do">
-          <img class="" src="content/img/website/3-2.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
           <h3><a href="service-website-planning.do">方案策划</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="service-website-design.do">
-          <img class="" src="content/img/website/3-3.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-3.jpg" alt="Generic placeholder image">
          </a>
           <h3><a href="service-website-design.do">网站设计</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="service-ecomm-payment.do">
-          <img class="" src="content/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
+          <img class="" src="/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
          </a>
           <h3><a href="service-ecomm-payment.do">在线支付</a></h3>
         </div><!-- /.col-lg-4 -->
@@ -128,21 +128,21 @@
       <div class="row"> 	
         <div class="col-lg-4">
         <a href="service-website-hosting.do">
-          <img class="" src="content/img/website/3-5.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-5.jpg" alt="Generic placeholder image">
         </a>
           <h3><a href="service-website-hosting.do">主机代理</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
           <a href="service-website-domainname.do">
-          <img class="" src="content/img/website/3-6.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-6.jpg" alt="Generic placeholder image">
           </a>
           <h3><a href="service-website-domainname.do">域名代理</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
         <a href="service-website-advising.do">
-          <img class="" src="content/img/website/3-1.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-1.jpg" alt="Generic placeholder image">
           </a>
           <h3><a href="service-website-advising.do">咨询服务</a></h3>
         </div><!-- /.col-lg-4 -->
@@ -151,14 +151,14 @@
       <div class="row"> 	
         <div class="col-lg-4">
         <a href="service-website-maintaining.do">
-          <img class="" src="content/img/website/3-5.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-5.jpg" alt="Generic placeholder image">
         </a>
           <h3><a href="service-website-maintaining.do">网站维护</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
           <a href="service-design.do">
-          <img class="" src="content/img/website/3-6.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-6.jpg" alt="Generic placeholder image">
           </a>
           <h3><a href="service-design.do">平面设计</a></h3>
         </div><!-- /.col-lg-4 -->
@@ -191,7 +191,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="content/img/faq/1.jpg" data-holder-rendered="true" >
+          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="/img/faq/1.jpg" data-holder-rendered="true" >
         </div>
       </div>
 
@@ -199,7 +199,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/2.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/2.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">网站开发</h2>
@@ -237,7 +237,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/faq/3.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="/img/faq/3.jpg" data-holder-rendered="true">
         </div>
       </div>
       
@@ -245,7 +245,7 @@
       
        <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">域名代理</h2>
@@ -285,7 +285,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/faq/3.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="/img/faq/3.jpg" data-holder-rendered="true">
         </div>
       </div>
       
@@ -293,7 +293,7 @@
       
        <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">技术咨询</h2>
@@ -348,12 +348,12 @@
 
     <!-- Bootstrap core JavaScript  ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/docs.min.js"></script>
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/docs.min.js"></script>
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="scripts/ie10-viewport-bug-workaround.js"></script>
+    <script src="/scripts/ie10-viewport-bug-workaround.js"></script>
   
   	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

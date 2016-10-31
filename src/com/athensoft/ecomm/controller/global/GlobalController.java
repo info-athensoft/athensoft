@@ -12,233 +12,233 @@ public class GlobalController {
 		return "index";
 	}
 	
-	@RequestMapping("/index.do")
+	@RequestMapping("/index")
 	public String gotoIndex2(){
 		return "index";
 	}
 	
 	/* website */
-	@RequestMapping("/service-website.do")
+	@RequestMapping("/website")
 	public String gotoWebsiteHome(){
 		return "websiste/service-website";
 	}
 	
-	@RequestMapping("/service-website-planning.do")
+	@RequestMapping("/service/website/planning")
 	public String gotoWebsite1(){
 		return "websiste/service-website-1";
 	}
 	
-	@RequestMapping("/service-website-design.do")
+	@RequestMapping("/service/website/design")
 	public String gotoWebsite2(){
 		return "websiste/service-website-2";
 	}
 	
-	@RequestMapping("/service-website-maintaining.do")
+	@RequestMapping("/service/website/maintaining")
 	public String gotoWebsite3(){
 		return "websiste/service-website-3";
 	}
 	
-	@RequestMapping("/service-website-hosting.do")
+	@RequestMapping("/service/website/hosting")
 	public String gotoWebsite4(){
 		return "websiste/service-website-4";
 	}
 	
-	@RequestMapping("/service-website-domainname.do")
+	@RequestMapping("/service/website/domainname")
 	public String gotoWebsite5(){
 		return "websiste/service-website-5";
 	}
 	
-	@RequestMapping("/service-website-advising.do")
+	@RequestMapping("/service/website/advising")
 	public String gotoWebsite6(){
 		return "websiste/service-website-6";
 	}
 	
-	@RequestMapping("/service-ecomm-payment.do")
+	@RequestMapping("/service/ecomm/payment")
 	public String gotoEcomm1(){
 		return "ecomm/service-ecomm-1";
 	}
 	
 	/* e-marketing */
-	@RequestMapping("/service-emarketing.do")
+	@RequestMapping("/service/emarketing")
 	public String gotoEmarketingHome(){
 		return "emarketing/service-emarketing";
 	}
 	
-	@RequestMapping("/service-emarketing-textmsg.do")
+	@RequestMapping("/service/emarketing/textmsg")
 	public String gotoEmarketing1(){
 		return "emarketing/service-emarketing-1";
 	}
 	
-	@RequestMapping("/service-emarketing-email.do")
+	@RequestMapping("/service/emarketing/email")
 	public String gotoEmarketing2(){
 		return "emarketing/service-emarketing-2";
 	}
 	
-	@RequestMapping("/service-emarketing-smm.do")
+	@RequestMapping("/service/emarketing/smm")
 	public String gotoEmarketing3(){
 		return "emarketing/service-emarketing-3";
 	}
 	
-	@RequestMapping("/service-emarketing-adogo.do")
+	@RequestMapping("/service/emarketing/adogo")
 	public String gotoEmarketing4(){
 		return "emarketing/service-emarketing-4";
 	}
 	
-	@RequestMapping("/service-emarketing-seo.do")
+	@RequestMapping("/service/emarketing/seo")
 	public String gotoEmarketing5(){
 		return "emarketing/service-emarketing-5";
 	}
 	
-	@RequestMapping("/service-emarketing-webanalysis.do")
+	@RequestMapping("/service/emarketing/webanalysis")
 	public String gotoEmarketing6(){
 		return "emarketing/service-emarketing-6";
 	}
 	
 	/* design */
-	@RequestMapping("/service-design.do")
+	@RequestMapping("/service/design")
 	public String gotoDesignHome(){
 		return "design/service-design";
 	}
 	
 	/* demo */
-	@RequestMapping("/demo.do")
+	@RequestMapping("/demo")
 	public String gotoDemoHome(){
 		return "demo/demo";
 	}
 	
-	@RequestMapping("/demo-function.do")
+	@RequestMapping("/demo/function")
 	public String gotoDemo1(){
 		return "demo/demo-1";
 	}
 	
-	@RequestMapping("/demo-template.do")
+	@RequestMapping("/demo/template")
 	public String gotoDemo2(){
 		return "demo/demo-2";
 	}
 	
-	@RequestMapping("/demo-case.do")
+	@RequestMapping("/demo/case")
 	public String gotoDemo3(){
 		return "demo/demo-3";
 	}
 	
 	/* help center */
-	@RequestMapping("/support.do")
+	@RequestMapping("/support")
 	public String gotoSupportHome(){
 		return "support/support";
 	}
 	
-	@RequestMapping("/support-faq.do")
+	@RequestMapping("/support/faq")
 	public String gotoSupport1(){
 		return "support/support-faq";
 	}
 	
-	@RequestMapping("/support-human.do")
+	@RequestMapping("/support/human")
 	public String gotoSupport2(){
 		return "support/support-human";
 	}
 	
-	@RequestMapping("/support-contactus.do")
+	@RequestMapping("/support/contactus")
 	public String gotoSupport3(){
 		return "support/support-contactus";
 	}
 	
 	/* events */
-	@RequestMapping("/events.do")
+	@RequestMapping("/events")
 	public String gotoEventsHome(){
 		return "events";
 	}
 	
 	/* company */
-	@RequestMapping("/company.do")
+	@RequestMapping("/about/company")
 	public String gotoCompanyHome(){
-		return "company";
+		return "about/company";
 	}
 	
 	/* service-website-design-evaluation */
-	@RequestMapping("/service-website-design-evaluation.do")
+	@RequestMapping("/service/website/calculator/buildup")
 	public String gotoServiceWebsiteDesignEvaluation(){
-		return "service-website-design-evaluation";
+		return "website/service-website-calculator-buildup";
 	}
 	
 	
 	
 	/*
-	@RequestMapping("/website_custom.do")
+	@RequestMapping("/website_custom")
 	public String gotoWebsiteCustom(){
-		System.out.println("servlet website_custom.do");
+		System.out.println("servlet website_custom");
 		return "website_custom";
 	}
 	
-	@RequestMapping("/design.do")
+	@RequestMapping("/design")
 	public String gotoDesign(){
-		System.out.println("servlet design.do");
+		System.out.println("servlet design");
 		return "design";
 	}
 	
 	
-	@RequestMapping("/ecomm.do")
+	@RequestMapping("/ecomm")
 	public String gotoEcomm(){
-		System.out.println("servlet ecomm.do");
+		System.out.println("servlet ecomm");
 		return "ecomm";
 	}
 	
-	@RequestMapping("/demo.do")
+	@RequestMapping("/demo")
 	public String gotoDemoHome(){
-		System.out.println("servlet demo.do");
+		System.out.println("servlet demo");
 		return "demo";
 	}
 	
-	@RequestMapping("/demo_enar.do")
+	@RequestMapping("/demo_enar")
 	public String gotoDemoEnarHome(){
-		System.out.println("servlet demo-enar.do");
+		System.out.println("servlet demo-enar");
 		return "demo_enar";
 	}
 	
-	@RequestMapping("/ecomm_demo.do")
+	@RequestMapping("/ecomm_demo")
 	public String gotoEcommDemo(){
-		System.out.println("servlet ecomm_demo.do");
+		System.out.println("servlet ecomm_demo");
 		return "ecomm_demo";
 	}
 	
-	@RequestMapping("/payment.do")
+	@RequestMapping("/payment")
 	public String gotoPayment(){
-		System.out.println("servlet payment.do");
+		System.out.println("servlet payment");
 		return "payment";
 	}
 	
-	@RequestMapping("/consulting.do")
+	@RequestMapping("/consulting")
 	public String gotoConsulting(){
-		System.out.println("servlet consulting.do");
+		System.out.println("servlet consulting");
 		return "consulting";
 	}
 	
-	@RequestMapping("/training.do")
+	@RequestMapping("/training")
 	public String gotoTraining(){
-		System.out.println("servlet training.do");
+		System.out.println("servlet training");
 		return "training";
 	}
 	
-	@RequestMapping("/events.do")
+	@RequestMapping("/events")
 	public String gotoEvents(){
-		System.out.println("servlet events.do");
+		System.out.println("servlet events");
 		return "events";
 	}
 	
-	@RequestMapping("/affiliate.do")
+	@RequestMapping("/affiliate")
 	public String gotoAffiliate(){
-		System.out.println("servlet affiliate.do");
+		System.out.println("servlet affiliate");
 		return "affiliate";
 	}
 	
-	@RequestMapping("/contact.do")
+	@RequestMapping("/contact")
 	public String gotoContact(){
-		System.out.println("servlet contact.do");
+		System.out.println("servlet contact");
 		return "contact";
 	}
 	
-	@RequestMapping("/about.do")
+	@RequestMapping("/about")
 	public String gotoAbout(){
-		System.out.println("servlet about.do");
+		System.out.println("servlet about");
 		return "about";
 	}
 	*/

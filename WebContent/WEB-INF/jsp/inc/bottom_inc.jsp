@@ -16,7 +16,7 @@
 	       <div class="col-md-3">
 		      <h4><spring:message code="bottom.header_1"/></h4>
 		       <ul>
-					<li><a href="contact.do"><spring:message code="bottom.item1_1"/></a></li>
+					<li><a href="/support/contactus"><spring:message code="bottom.item1_1"/></a></li>
 					<li><spring:message code="bottom.item1_2"/></li>
 					<li><spring:message code="bottom.item1_3"/></li>						
 					<li><spring:message code="bottom.item1_4"/></li>						

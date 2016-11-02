@@ -22,12 +22,12 @@
 	</bean>
 	
 	 
-	<mvc:resources mapping="/images/**" location="images/" /> 
-	<mvc:resources mapping="/img/**" location="content/img/" />
-	<mvc:resources mapping="/css/**" location="content/css/" />
-	<mvc:resources mapping="/fonts/**" location="content/fonts/" />
-	<mvc:resources mapping="/ico/**" location="content/ico/" />
-	<mvc:resources mapping="/scripts/**" location="scripts/" />
+	<mvc:resources mapping="/images/**" location="/images/" /> 
+	<mvc:resources mapping="/img/**" location="/img/" />
+	<mvc:resources mapping="/css/**" location="/css/" />
+	<mvc:resources mapping="/fonts/**" location="/fonts/" />
+	<mvc:resources mapping="/ico/**" location="/ico/" />
+	<mvc:resources mapping="/scripts/**" location="/scripts/" />
 	 
 	
 	<!-- 

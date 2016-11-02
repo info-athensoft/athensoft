@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.jsp?locale=${loc}">Informatique Athensoft</a>
+              <a class="navbar-brand" href="/?locale=${loc}">Informatique Athensoft</a>
             </div>
             
             <div id="navbar" class="navbar-collapse collapse">
@@ -37,7 +37,7 @@
                 
                 <!-- website -->
                 <li id="website">
-                	<a href="/service/website"><spring:message code="menu.website"/></a>
+                	<a href="/website"><spring:message code="menu.website"/></a>
                 </li>
                 <!-- end website -->
                 

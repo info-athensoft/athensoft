@@ -1,0 +1,11 @@
+.marketing p{
+	text-align:left;
+	}
+	
+	.marketing p.withBtn{
+		text-align:center;
+	}
+	
+	.marketing ul li{
+		text-align:left;
+	}

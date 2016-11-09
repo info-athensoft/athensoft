@@ -17,8 +17,8 @@
 <!-- ENDS i18n -->
 
 <!-- page variables  -->
-<c:set var="inc_dir" value="inc"/>
-<c:set var="support_dir" value="support"/>
+<c:set var="inc_dir" value="../inc"/>
+<c:set var="support_dir" value="../support"/>
 <!-- ENDS page variables -->
 
 <head>
@@ -147,7 +147,7 @@
         </div><!-- end of outter row-9 -->
         
         <div class="col-sm-3 blog-sidebar">
-         <jsp:include page="${support_dir}support-faq-sidebar-inc.jsp"></jsp:include>
+         <jsp:include page="${support_dir}/support-faq-sidebar-inc.jsp"></jsp:include>
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       

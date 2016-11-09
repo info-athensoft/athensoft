@@ -18,39 +18,39 @@ public class GlobalController {
 	}
 	
 	/* website */
-	@RequestMapping("/website")
+	@RequestMapping("/service/website")
 	public String gotoWebsiteHome(){
-		return "websiste/service-website";
+		return "website/service-website";
 	}
 	
 	@RequestMapping("/service/website/planning")
 	public String gotoWebsite1(){
-		return "websiste/service-website-1";
+		return "website/service-website-1";
 	}
 	
 	@RequestMapping("/service/website/design")
 	public String gotoWebsite2(){
-		return "websiste/service-website-2";
+		return "website/service-website-2";
 	}
 	
 	@RequestMapping("/service/website/maintaining")
 	public String gotoWebsite3(){
-		return "websiste/service-website-3";
+		return "website/service-website-3";
 	}
 	
 	@RequestMapping("/service/website/hosting")
 	public String gotoWebsite4(){
-		return "websiste/service-website-4";
+		return "website/service-website-4";
 	}
 	
 	@RequestMapping("/service/website/domainname")
 	public String gotoWebsite5(){
-		return "websiste/service-website-5";
+		return "website/service-website-5";
 	}
 	
 	@RequestMapping("/service/website/advising")
 	public String gotoWebsite6(){
-		return "websiste/service-website-6";
+		return "website/service-website-6";
 	}
 	
 	@RequestMapping("/service/ecomm/payment")
@@ -145,7 +145,7 @@ public class GlobalController {
 	/* events */
 	@RequestMapping("/events")
 	public String gotoEventsHome(){
-		return "events";
+		return "events/events";
 	}
 	
 	/* company */

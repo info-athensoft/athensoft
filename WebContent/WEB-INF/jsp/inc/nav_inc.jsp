@@ -37,7 +37,7 @@
                 
                 <!-- website -->
                 <li id="website">
-                	<a href="/website"><spring:message code="menu.website"/></a>
+                	<a href="/service/website"><spring:message code="menu.website"/></a>
                 </li>
                 <!-- end website -->
                 

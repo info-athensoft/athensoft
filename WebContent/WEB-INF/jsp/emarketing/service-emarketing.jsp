@@ -31,16 +31,16 @@
     <title>Informatique Athensoft</title>
     
     <!-- Company Logo Icon -->
-    <link rel="icon" href="content/ico/favicon.ico">    
+    <link rel="icon" href="/ico/favicon.ico">    
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="content/css/bootstrap.min.css">
-    <link rel="stylesheet" href="content/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="content/css/docs.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/docs.min.css">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="content/css/custom/carousel.css">
-    <link rel="stylesheet" href="content/css/custom/athensoft.css">
+    <link rel="stylesheet" href="/css/custom/carousel.css">
+    <link rel="stylesheet" href="/css/custom/athensoft.css">
     
     <!-- Font -->
      
@@ -104,21 +104,21 @@
         
         <div class="col-lg-4">
         <a href="service-emarketing-textmsg.do">
-          <img class="" src="content/img/website/3-2.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
           <h3><a href="service-emarketing-textmsg.do">手机短信推送</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="service-emarketing-email.do">
-          <img class="" src="content/img/website/3-3.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-3.jpg" alt="Generic placeholder image">
          </a>
           <h3><a href="service-emarketing-email.do">电子邮件广告</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="service-emarketing-smm.do">
-          <img class="" src="content/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
+          <img class="" src="/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
          </a>
           <h3><a href="service-emarketing-smm.do">社交网络推广</a></h3>
         </div><!-- /.col-lg-4 -->
@@ -128,21 +128,21 @@
       <div class="row"> 	
         <div class="col-lg-4">
         <a href="service-emarketing-adogo.do">
-          <img class="" src="content/img/website/3-5.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-5.jpg" alt="Generic placeholder image">
         </a>
           <h3><a href="service-emarketing-adogo.do">ADOGO平台推广</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
           <a href="service-emarketing-seo.do">
-          <img class="" src="content/img/website/3-6.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-6.jpg" alt="Generic placeholder image">
           </a>
           <h3><a href="service-emarketing-seo.do">搜索引擎优化</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
         <a href="service-emarketing-webanalysis.do">
-          <img class="" src="content/img/website/3-1.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-1.jpg" alt="Generic placeholder image">
           </a>
           <h3><a href="service-emarketing-webanalysis.do">网站数据分析</a></h3>
         </div><!-- /.col-lg-4 -->

@@ -30,72 +30,31 @@
     
     <title>Informatique Athensoft</title>
     
-    <!-- Company Logo Icon -->
-    <link rel="icon" href="/ico/favicon.ico">    
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/css/docs.min.css">
-
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="/css/custom/carousel.css">
-    <link rel="stylesheet" href="/css/custom/athensoft.css">
-    
-    <!-- Font -->
-     
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    
-    <!--
-    <link href="/font/opensans-light-webfront.woff" rel='stylesheet' type='text/css'>
-    <link href="/font/opensans-light-webfront.ttf" rel='stylesheet' type='text/css'>
-    <link href="/font/opensans-light-webfront.svg" rel='stylesheet' type='text/css'>
-     -->
-     
+    <!-- global css -->
+   	<jsp:include page="${inc_dir}/head_inc.jsp"></jsp:include>
     <!-- local css in page scope -->
-     <style>    		
-	
-	
-	.marketing p{
-	/*
-	  text-align:justify;
-      text-justify:distribute-all-lines;
-      text-align-last:justify;
-      -moz-text-align-last:justify;
-      -webkit-text-align-last:justify;
-      */
-	}
-	
-	.marketing p.withBtn{
-		text-align:center;
-	}
-	
-    </style>
-  </head>
+</head>
   
 
-  <body>
-  	<!-- NAVBAR ================================================== -->
- 	 <!-- Nav -->
-	  <jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
-	  <!-- End of Nav -->
+<body>
+  	<!-- NAVBAR -->
+	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
+	<!-- End of Nav -->
 
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
-	  <div class="container">
+		<div class="container">
 	    <h2>样例展示•功能组件</h2>
 		  <p>多种标准化组件和配套服务供您自由选择</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
 		  </p>
-	  </div>
+		</div>
 	</div>
 	
 	
-	 <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+	<!-- Marketing messaging and featurettes -->
 
     <div class="container marketing">
 
@@ -143,11 +102,12 @@
 	      
         </ul>
       </div>
-   </div><!-- global module -->
+   </div>
+   <!-- global module -->
 
 
 	<!-- ecomm module -->
-    <div class="container">    	
+	<div class="container">    	
     	<h2><span class="label label-info">电子商务功能</span></h2>
     	<br/>        
 		<div class="bs-glyphicons">
@@ -186,10 +146,11 @@
 	        </li>
         </ul>
       </div>
-   </div><!-- ecomm module -->
+   	</div>
+   	<!-- ecomm module -->
 
-   <!-- ecomm module -->
-    <div class="container">    	
+   	<!-- ecomm module -->
+	<div class="container">    	
     	<h2><span class="label label-info">社交媒体功能</span></h2>
     	<br/>        
 		<div class="bs-glyphicons">
@@ -239,8 +200,7 @@
 	       	      
         </ul>
       </div>
-   </div><!-- ecomm module -->
-
+	</div><!-- ecomm module -->
 
 	<!-- business module -->
 	<div class="container">
@@ -392,62 +352,43 @@
 	       
         </ul>
       </div>
-   </div><!-- business module -->
-   
-   
+   	</div><!-- business module -->
 
-     </div>
+	</div>
 
     <div class="container marketing">
-      <!-- START THE FEATURETTES -->
-
-     <!-- /END THE FEATURETTES -->
      
-	 <hr class="athensoft-divider2">
+	<hr class="athensoft-divider2">
 	 
-	 <!-- Partner -->
-	   <div class="row">
+	<!-- Partner -->
+	<div class="row">
 		<div class="col-md-12">
 			<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
-            <!-- Carousel items -->
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-		</div><!--.Carousel-->
 		</div>
-	  <!-- End of partner -->
+	</div>
+	<!-- End of partner -->
 
-	  <!-- Bottom -->
-	  <jsp:include page="${inc_dir}/bottom_inc.jsp"></jsp:include>	
-	  <!-- End of Bottom -->
+	<!-- Bottom -->
+	<jsp:include page="${inc_dir}/bottom_inc.jsp"></jsp:include>	
+	<!-- End of Bottom -->
 
-	  <hr class="athensoft-divider">
+	<hr class="athensoft-divider">
 
-      <!-- FOOTER -->
-      <jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
-	  <!-- FOOTER -->
-	  
+	<!-- FOOTER -->
+	<jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
+	<!-- FOOTER -->
 	  
     </div><!-- /.container -->
 
 
-    <!-- Bootstrap core JavaScript  ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/scripts/jquery.min.js"></script>
-    <script src="/scripts/bootstrap.min.js"></script>
-    <script src="/scripts/docs.min.js"></script>
+    <!-- Global Scripts  -->
+	<jsp:include page="${inc_dir}/scripts_inc.jsp"></jsp:include>
     
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="scripts/ie10-viewport-bug-workaround.js"></script>
-  
-  	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-     <script>
+	<script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

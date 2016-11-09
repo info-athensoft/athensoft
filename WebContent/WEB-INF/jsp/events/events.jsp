@@ -34,20 +34,10 @@
     
     <title>迷你展示网站制作|周年庆礼包</title>
     
-    <!-- Company Logo Icon -->
-    <link rel="icon" href="/ico/favicon.ico">    
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="/css/bootstrap-theme111.min.css">  -->
-
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="/css/custom/carousel.css">
-    <link rel="stylesheet" href="/css/custom/athensoft.css">
+    <!-- global css -->
+   	<jsp:include page="${inc_dir}/head_inc.jsp"></jsp:include>
+    <!-- local css in page scope -->
     
-    <!-- Font -->     
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-     
     <!-- local css in page scope -->
     <style>
     .bg{
@@ -85,17 +75,16 @@
 	.section-title p{
 		text-align:center;
 	}    		
-    </style>
-  </head>
+	</style>
+</head>
   
 
-  <body>
-  	<!-- NAVBAR ================================================== -->
- 	 <!-- Nav -->
-	  <jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
-	  <!-- End of Nav -->
+<body>
+	<!-- NAVBAR -->
+	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
+	<!-- End of Nav -->
 	
-	  <!-- Carousel ================================================== -->
+	<!-- Carousel ================================================== -->
     ` <div id="myCarousel" class="carousel" data-ride="carousel">
       <!-- Indicators -->
       <div class="carousel-inner" role="listbox">

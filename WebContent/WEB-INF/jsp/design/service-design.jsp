@@ -49,8 +49,8 @@
 	    <h2>平面设计•服务项目</h2>
 		  <p>WEB平面设计、广告设计、印刷品</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="#" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/website" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
@@ -64,21 +64,21 @@
         
         <div class="col-lg-4">
         <a href="#">
-          <img class="" src="content/img/website/3-2.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
           <h3><a href="#">WEB平面设计</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="#">
-          <img class="" src="content/img/website/3-3.jpg" alt="Generic placeholder image">
+          <img class="" src="/img/website/3-3.jpg" alt="Generic placeholder image">
          </a>
           <h3><a href="#">广告设计</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
          <a href="#">
-          <img class="" src="content/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
+          <img class="" src="/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
          </a>
           <h3><a href="#">印刷品</a></h3>
         </div><!-- /.col-lg-4 -->
@@ -110,7 +110,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="content/img/faq/1.jpg" data-holder-rendered="true" >
+          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="/img/faq/1.jpg" data-holder-rendered="true" >
         </div>
       </div>
 
@@ -118,7 +118,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/2.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/2.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">网站开发</h2>
@@ -156,7 +156,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/faq/3.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="/img/faq/3.jpg" data-holder-rendered="true">
         </div>
       </div>
       
@@ -164,7 +164,7 @@
       
        <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">域名代理</h2>
@@ -204,7 +204,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/faq/3.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="/img/faq/3.jpg" data-holder-rendered="true">
         </div>
       </div>
       
@@ -212,7 +212,7 @@
       
        <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">技术咨询</h2>

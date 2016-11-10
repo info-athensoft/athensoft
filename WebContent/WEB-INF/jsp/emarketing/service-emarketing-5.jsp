@@ -37,26 +37,24 @@
   
 
   <body>
-  	<!-- NAVBAR ================================================== -->
- 	 <!-- Nav -->
-	  <jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
-	  <!-- End of Nav -->
+  	<!-- NAVBAR  -->
+	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
+	<!-- End of Nav -->
 
-    <!-- Carousel ================================================== -->
+    <!-- Carousel  -->
 	<div class="jumbotron">
 	  <div class="container">
 	    <h2>网络推广•搜索引擎优化</h2>
 		  <p>站内站外优化，提高网站的搜索排名</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-emarketing.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/emarketing" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
 	
 	
-	 <!-- Marketing messaging and featurettes
-    ================================================== -->
+	 <!-- Marketing messaging and featurettes -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">

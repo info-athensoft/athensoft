@@ -42,14 +42,14 @@
 	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	<!-- End of Nav -->
 
-    <!-- Carousel ================================================== -->
+    <!-- Carousel -->
 	<div class="jumbotron">
 	  <div class="container">
 	    <h2>电子商务•在线支付</h2>
 		  <p>让您的网站和应用拥有便捷强大的支付功能</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/website" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

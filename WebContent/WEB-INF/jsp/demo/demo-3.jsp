@@ -47,8 +47,8 @@
 	    <h2>样例展示•网站案例</h2>
 		  <p>预览主题设计、用户体验</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/index" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

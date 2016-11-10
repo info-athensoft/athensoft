@@ -41,14 +41,14 @@
 	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	<!-- End of Nav -->
 
-    <!-- Carousel ================================================== -->
+    <!-- Carousel -->
 	<div class="jumbotron">
 		<div class="container">
 	    <h2>样例展示•功能组件</h2>
 		  <p>多种标准化组件和配套服务供您自由选择</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/index" role="button">返回</a>
 		  </p>
 		</div>
 	</div>

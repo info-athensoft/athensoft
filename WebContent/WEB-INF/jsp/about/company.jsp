@@ -51,8 +51,8 @@
 	    <h2>公司简介</h2>
 		  <p>简介、价值观、核心优势</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/index" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

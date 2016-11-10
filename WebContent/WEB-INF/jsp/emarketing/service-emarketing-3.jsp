@@ -38,9 +38,9 @@
 
   <body>
   	<!-- NAVBAR ================================================== -->
- 	 <!-- Nav -->
-	  <jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
-	  <!-- End of Nav -->
+	<!-- Nav -->
+	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
+	<!-- End of Nav -->
 
     <!-- Carousel ================================================== -->
 	<div class="jumbotron">
@@ -48,8 +48,8 @@
 	    <h2>网络推广•社交网络推广</h2>
 		  <p>借力强大的社交网络，培养属于您的客户群体</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-emarketing.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/emarketing" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

@@ -47,8 +47,8 @@
 	    <h2>网络推广•ADOGO平台推广</h2>
 		  <p>找客户、找商家、找合作，兼容并包、抱团发展的在线广告市场</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-emarketing.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/emarketing" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

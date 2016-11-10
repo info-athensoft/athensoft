@@ -84,17 +84,16 @@
 	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	<!-- End of Nav -->
 	
-	<!-- Carousel ================================================== -->
+	<!-- Carousel -->
     ` <div id="myCarousel" class="carousel" data-ride="carousel">
       <!-- Indicators -->
       <div class="carousel-inner" role="listbox">
       	<div class="item active bg-slider">
-          <!-- <img src="content/img/slide/1.jpg" alt="Second slide"/>  -->
+          <!-- <img src="/img/slide/1.jpg" alt="Second slide"/>  -->
           <div class="container">
             <div class="carousel-caption">
               <h1>周年庆特惠&nbsp;&nbsp;&nbsp;迷你形象展示站制作</h1>
               <h3>离结活动束还有<br/><span id="time_d"></span>天&nbsp;&nbsp;&nbsp;<span id="time_h"></span>时&nbsp;&nbsp;&nbsp;<span id="time_m"></span>分&nbsp;&nbsp;&nbsp;<span id="time_s"></span>秒</h3>
-              <!-- <p>INFORMATIQUE ATHENSOFT 十年专业经验团队为您服务</p>   -->
               <p><br/></p>
               <p><a class="btn btn-lg btn-primary" href="#onsale_site" role="button">查看详情</a></p>
             </div>
@@ -107,8 +106,7 @@
 	<div id="onsale_site"></div>
 
 	
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
+    <!-- Marketing messaging and featurettes -->
 	
 
     <div class="container marketing">
@@ -125,7 +123,7 @@
       <div class="row section-title">
       	<div class="col-lg-4">
           <a href="${url_server}${url_app}index-onepage.html">
-          <img class="img-thumbnail img-responsive" src="content/img/template/1.jpg" alt="Generic placeholder image" style="width: 100%; height: auto;">
+          <img class="img-thumbnail img-responsive" src="/img/template/1.jpg" alt="Generic placeholder image" style="width: 100%; height: auto;">
           </a>
           <h3>迷你形象站 A</h3>
           <p class="withBtn">
@@ -135,7 +133,7 @@
       
         <div class="col-lg-4">
           <a href="${url_server}${url_app}index-onepage-2.html">
-          <img class="img-thumbnail img-responsive" src="content/img/template/3.jpg" alt="Generic placeholder image" style="width: 100%; height: auto;">
+          <img class="img-thumbnail img-responsive" src="/img/template/3.jpg" alt="Generic placeholder image" style="width: 100%; height: auto;">
           </a>
           <h3>迷你形象站 B</h3>
           <p class="withBtn">
@@ -145,7 +143,7 @@
         
         <div class="col-lg-4">
           <a href="${url_server}${url_app}index-onepage-3.html">
-          <img class="img-thumbnail img-responsive" src="content/img/template/2.jpg" alt="Generic placeholder image" style="width: 100%; height: auto;">
+          <img class="img-thumbnail img-responsive" src="/img/template/2.jpg" alt="Generic placeholder image" style="width: 100%; height: auto;">
           </a>
           <h3>迷你形象站 C</h3>
           <p class="withBtn">
@@ -266,7 +264,7 @@
 		  <p class="lead"></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="content/img/event/tech.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="/img/event/tech.jpg" data-holder-rendered="true">
         </div>
       </div>
 
@@ -277,7 +275,7 @@
 	  <!-- feature -->
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/event/price.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/event/price.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">价格&nbsp;<spring:message code="feature.separator"/>&nbsp;<span class="text-muted">增值服务</span></h2>
@@ -314,7 +312,7 @@
 			第三年开始 $7.99+tx/月，按年预付</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="content/img/event/1.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="/img/event/1.jpg" data-holder-rendered="true">
         </div>
       </div>
 
@@ -323,7 +321,7 @@
 	  <!-- feature -->
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/event/valueadd.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/event/valueadd.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">维护&nbsp;<spring:message code="feature.separator"/>&nbsp;<span class="text-muted">细则说明</span></h2>
@@ -364,7 +362,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/home/c3.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="/img/home/c3.jpg" data-holder-rendered="true">
         </div>
       </div>
      
@@ -383,20 +381,8 @@
 	  <!-- FOOTER -->	  
     </div><!-- /.container -->
 
-    <!-- Bootstrap core JavaScript  ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/scripts/jquery.min.js"></script>
-    <script src="/scripts/bootstrap.min.js"></script>
-    <script src="/scripts/docs.min.js"></script>
-    
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/scripts/ie10-viewport-bug-workaround.js"></script>
-  
-  	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Global Scripts  -->
+	<jsp:include page="${inc_dir}/scripts_inc.jsp"></jsp:include>
     
     <script>
     $(function(){

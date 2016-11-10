@@ -40,14 +40,14 @@
 	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	<!-- End of Nav -->
 
-    <!-- Carousel ================================================== -->
+    <!-- Carousel -->
 	<div class="jumbotron">
 	  <div class="container">
 	    <h2>网络推广•服务项目</h2>
 		  <p>让更多客户找到您</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/index" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
@@ -127,7 +127,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="content/img/faq/1.jpg" data-holder-rendered="true" >
+          <img class="featurette-image img-responsive" id="fpic1" data-src="" alt="500x500" src="/img/faq/1.jpg" data-holder-rendered="true" >
         </div>
       </div>
 
@@ -135,7 +135,7 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/2.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/2.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">电子邮件营销</h2>
@@ -173,7 +173,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/faq/3.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="/img/faq/3.jpg" data-holder-rendered="true">
         </div>
       </div>
       
@@ -181,7 +181,7 @@
       
        <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">搜索引擎优化</h2>
@@ -221,7 +221,7 @@
 		  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="content/img/faq/3.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic3" data-src="" alt="500x500" src="/img/faq/3.jpg" data-holder-rendered="true">
         </div>
       </div>
       
@@ -229,7 +229,7 @@
       
        <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="content/img/faq/4.jpg" data-holder-rendered="true">
+          <img class="featurette-image img-responsive" id="fpic2" data-src="" alt="500x500" src="/img/faq/4.jpg" data-holder-rendered="true">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">ADOGO平台推广</h2>

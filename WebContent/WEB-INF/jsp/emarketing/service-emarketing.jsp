@@ -60,49 +60,49 @@
       <div class="row">     	
         
         <div class="col-lg-4">
-        <a href="service-emarketing-textmsg.do">
+        <a href="/service/emarketing/textmsg">
           <img class="" src="/img/website/3-2.jpg" alt="Generic placeholder image">
         </a>
-          <h3><a href="service-emarketing-textmsg.do">手机短信推送</a></h3>
+          <h3><a href="/service/emarketing/textmsg">手机短信推送</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-         <a href="service-emarketing-email.do">
+         <a href="/service/emarketing/email">
           <img class="" src="/img/website/3-3.jpg" alt="Generic placeholder image">
          </a>
-          <h3><a href="service-emarketing-email.do">电子邮件广告</a></h3>
+          <h3><a href="/service/emarketing/email">电子邮件广告</a></h3>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-         <a href="service-emarketing-smm.do">
+         <a href="/service/emarketing/smm">
           <img class="" src="/img/website/3-4.jpg" alt="Generic placeholder image" width="300" height="190">
          </a>
-          <h3><a href="service-emarketing-smm.do">社交网络推广</a></h3>
+          <h3><a href="/service/emarketing/smm">社交网络推广</a></h3>
         </div><!-- /.col-lg-4 -->
         
       </div><!-- /.row -->   
       
       <div class="row"> 	
         <div class="col-lg-4">
-        <a href="service-emarketing-adogo.do">
+        <a href="/service/emarketing/adogo">
           <img class="" src="/img/website/3-5.jpg" alt="Generic placeholder image">
         </a>
-          <h3><a href="service-emarketing-adogo.do">ADOGO平台推广</a></h3>
-        </div><!-- /.col-lg-4 -->
+          <h3><a href="/service/emarketing/adogo">ADOGO平台推广</a></h3>
+        </div>
         
         <div class="col-lg-4">
-          <a href="service-emarketing-seo.do">
+          <a href="/service/emarketing/seo">
           <img class="" src="/img/website/3-6.jpg" alt="Generic placeholder image">
           </a>
-          <h3><a href="service-emarketing-seo.do">搜索引擎优化</a></h3>
-        </div><!-- /.col-lg-4 -->
+          <h3><a href="/service/emarketing/seo">搜索引擎优化</a></h3>
+        </div>
         
         <div class="col-lg-4">
-        <a href="service-emarketing-webanalysis.do">
+        <a href="/service/emarketing/webanalysis">
           <img class="" src="/img/website/3-1.jpg" alt="Generic placeholder image">
           </a>
-          <h3><a href="service-emarketing-webanalysis.do">网站数据分析</a></h3>
-        </div><!-- /.col-lg-4 -->
+          <h3><a href="/service/emarketing/webanalysis">网站数据分析</a></h3>
+        </div>
       </div><!-- /.row -->
 
      </div>

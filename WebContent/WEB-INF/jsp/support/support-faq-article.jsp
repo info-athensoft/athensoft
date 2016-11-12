@@ -47,15 +47,14 @@
 	    <h2>帮助中心•常见问题解答</h2>
 		  <p>迅速找到常见问题、解惑、提出新问题</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="support-faq.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/support/faq" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
 	
 	
 	<!-- Marketing messaging and featurettes -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
       <!-- Three columns of text below the carousel -->

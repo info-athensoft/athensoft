@@ -41,26 +41,23 @@
 	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	<!-- End of Nav -->
 
-    <!-- Carousel ================================================== -->
+    <!-- Carousel -->
 	<div class="jumbotron">
 	  <div class="container">
 	    <h2>帮助中心•联系我们</h2>
 		  <p>用任何一种方式都可以联系我们</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="#" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
+		  	<a class="btn btn-primary btn-lg" href="/index" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
 	
 	
-	 <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
+	<!-- Marketing messaging and featurettes -->
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
+	<!-- Three columns of text below the carousel -->
       <div class="row">     	
         
         <div class="col-lg-9">

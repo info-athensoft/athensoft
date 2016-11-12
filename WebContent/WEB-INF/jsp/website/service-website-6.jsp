@@ -47,8 +47,8 @@
 	    <h2>网站开发•咨询服务</h2>
 		  <p>互联网技术、软件技术、电子商务、网络推广、IT技能与就业咨询</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/website" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

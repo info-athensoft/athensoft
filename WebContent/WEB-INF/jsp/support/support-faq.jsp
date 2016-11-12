@@ -47,8 +47,8 @@
 	    <h2>帮助中心•常见问题解答</h2>
 		  <p>迅速找到常见问题、解惑、提出新问题</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="index.jsp" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/index" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

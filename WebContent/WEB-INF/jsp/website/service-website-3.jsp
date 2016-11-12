@@ -47,8 +47,8 @@
 	    <h2>网站开发•网站维护</h2>
 		  <p>系统网络环境、网站运行状态、业务数据、内容更新、功能变更</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/website" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

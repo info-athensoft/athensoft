@@ -41,14 +41,14 @@
 	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	<!-- End of Nav -->
 
-    <!-- Carousel ================================================== -->
+    <!-- Carousel -->
 	<div class="jumbotron">
 	  <div class="container">
 	    <h2>网站开发•主机代理</h2>
 		  <p>选择、评估、购置、管理适合您的主机服务</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/website" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

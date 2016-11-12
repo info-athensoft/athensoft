@@ -59,7 +59,7 @@
 	            	<h1><spring:message code="slide.item.title_2"/></h1>
 	            	<p></p>
 	            	<p><spring:message code="slide.item.desc_2"/></p>
-	            	<p><a class="btn btn-lg btn-primary" href="demo.do" role="button"><spring:message code="slide.item.button_2"/></a></p>
+	            	<p><a class="btn btn-lg btn-primary" href="/demo/case" role="button"><spring:message code="slide.item.button_2"/></a></p>
 	           	</div>
          	</div>
 		</div>
@@ -72,7 +72,7 @@
              		<h1><spring:message code="slide.item.title_1"/></h1>
              		<p></p>
              		<p><spring:message code="slide.item.desc_1"/></p>
-             		<p><a class="btn btn-lg btn-primary" href="ecomm.do" role="button"><spring:message code="slide.item.button_1"/></a></p>
+             		<p><a class="btn btn-lg btn-primary" href="/service/emarketing" role="button"><spring:message code="slide.item.button_1"/></a></p>
            		</div>
          	</div>
        </div>
@@ -109,7 +109,7 @@
 	<!-- Main business -->
 	<div class="row">
      	<div class="col-lg-4">
-         <a href="service-website.do">
+         <a href="/service/website">
          <img class="img-circle" src="/img/feature/s14.png" alt="Generic placeholder image" style="width: 140px; height: 140px;"></a>
          <h2><spring:message code="feature.website"/></h2>
          <p>专业设计形象宣传网站、产品展示网站、企业或组织网站及各类电商网站等，行业不限。PC端与移动端完美兼容。十五年专业品质，值得信赖！</p>
@@ -120,12 +120,12 @@
          	<li>网站维护</li>
          </ul>
          <p class="withBtn">
-         	<a class="btn btn-default" href="service-website.do" role="button"><spring:message code="feature.btn.readmore"/></a>
+         	<a class="btn btn-default" href="/service/website" role="button"><spring:message code="feature.btn.readmore"/></a>
          </p>
        </div>      
      
        <div class="col-lg-4">
-         <a href="service-emarketing.do">
+         <a href="/service/emarketing">
          <img class="img-circle" src="/img/feature/s31.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
          </a>
          <h2><spring:message code="feature.emarketing"/></h2>
@@ -137,12 +137,12 @@
          	<li>社交网络推广</li>
          </ul>
          <p class="withBtn">
-         	<a class="btn btn-default" href="service-emarketing.do" role="button"><spring:message code="feature.btn.readmore"/></a>
+         	<a class="btn btn-default" href="/service/emarketing" role="button"><spring:message code="feature.btn.readmore"/></a>
 	  	</p>
        </div>       
        
        <div class="col-lg-4">
-         <a href="service-ecomm-payment.do">
+         <a href="/service/ecomm/payment">
          <img class="img-circle" src="/img/feature/s23.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
          </a>
          <h2><spring:message code="feature.payment"/></h2>
@@ -154,7 +154,7 @@
          	<li>发票系统开发</li>
          </ul>
          <p class="withBtn">
-         	<a class="btn btn-default" href="service-ecomm-payment.do" role="button"><spring:message code="feature.btn.readmore"/></a>
+         	<a class="btn btn-default" href="/service/ecomm/payment" role="button"><spring:message code="feature.btn.readmore"/></a>
          </p>
        </div>
      </div>

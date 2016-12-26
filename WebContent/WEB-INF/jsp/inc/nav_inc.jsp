@@ -93,16 +93,16 @@
               </ul>
               
               <ul class="nav navbar-nav navbar-right">
-        		<li><a href="signin.do"><spring:message code="user.signin"/></a></li>
-        		<li><a href="###"><spring:message code="user.signup"/></a></li>
+        		<li><a href="/signin"><spring:message code="user.signin"/></a></li>
+        		<li><a href="/signup"><spring:message code="user.signup"/></a></li>
         		
         		<li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.lang"/> <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="index.jsp?locale=fr_CA"><spring:message code="lang.fr"/></a></li>
-                    <li><a href="index.jsp?locale=en_US"><spring:message code="lang.en"/></a></li>
-                    <li><a href="index.jsp?locale=zh_CN"><spring:message code="lang.zh_s"/></a></li>
-                    <li><a href="index.jsp?locale=zh_CN"><spring:message code="lang.zh_t"/></a></li>
+                    <li><a href="/?locale=fr_CA"><spring:message code="lang.fr"/></a></li>
+                    <li><a href="/?locale=en_US"><spring:message code="lang.en"/></a></li>
+                    <li><a href="/?locale=zh_CN"><spring:message code="lang.zh_s"/></a></li>
+                    <li><a href="/?locale=zh_CN"><spring:message code="lang.zh_t"/></a></li>
                     <!-- 
                     <li class="divider"></li>
                     <li class="dropdown-header">Nav header</li>

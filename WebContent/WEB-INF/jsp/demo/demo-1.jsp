@@ -33,6 +33,8 @@
     <!-- global css -->
    	<jsp:include page="${inc_dir}/head_inc.jsp"></jsp:include>
     <!-- local css in page scope -->
+    
+    <link rel="stylesheet" href="/css/docs.min.css">
 </head>
   
 

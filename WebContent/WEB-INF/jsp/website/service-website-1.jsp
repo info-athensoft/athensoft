@@ -47,8 +47,8 @@
 	    <h2>网站开发•方案策划</h2>
 		  <p>业务、功能、外观、维护、运营多角度策划</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="/service/website" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>

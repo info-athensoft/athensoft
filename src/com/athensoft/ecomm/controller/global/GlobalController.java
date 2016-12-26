@@ -154,6 +154,19 @@ public class GlobalController {
 		return "about/company";
 	}
 	
+	
+	/** function **/
+	/* quotation calculator for projects */
+	@RequestMapping("/quot/project")
+	public String gotoQuotProject(){
+		return "quot/quot-calculator-project";
+	}
+	
+	
+	
+	
+	
+	//for test
 	/* service-website-design-evaluation */
 	@RequestMapping("/service/website/calculator/buildup")
 	public String gotoServiceWebsiteDesignEvaluation(){

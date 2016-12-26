@@ -5,6 +5,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!DOCTYPE html>
+
 <html>
 
 <!-- i18n -->
@@ -36,18 +37,18 @@
   
 
 <body>
-  	<!-- NAVBAR -->
+  	<!-- NAVBAR  -->
 	<jsp:include page="${inc_dir}/nav_inc.jsp"></jsp:include>	
 	<!-- End of Nav -->
 
-    <!-- Carousel ================================================== -->
+    <!-- Carousel  -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>网站开发•网站设计</h2>
-		  <p>视觉外观、功能应用、系统架构、数据模型全面设计</p>
+	    <h2>自助报价•网站项目</h2>
+		  <p>自助报价计算器，精确估算开发成本</p>
 		  <p>
-		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
-		  	<a class="btn btn-primary btn-lg" href="/service/website" role="button">返回</a>
+		    <a class="btn btn-primary btn-lg" href="support-contactus.do" role="button">联系我们</a>
+		  	<a class="btn btn-primary btn-lg" href="service-website.do" role="button">返回</a>
 		  </p>
 	  </div>
 	</div>
@@ -61,50 +62,62 @@
       <div class="row">     	
         
         <div class="col-lg-9">
-          	<ol class="breadcrumb">
+        	<ol class="breadcrumb">
 			  <li><a href="#">首页</a></li>
 			  <li><a href="service-website.do">网站开发服务项目</a></li>
-			  <li class="active">网站设计</li>
+			  <li class="active">网站方案策划</li>
 			</ol>
-			
-          	<h2>什么是网站设计？</h2>
-	          <p class="lead">网站制作，有时被人们习惯地称为网站设计。网站设计，通俗地说就是网站关于主题样式设计，页面布局，图片文字处理，程序设计，数据库设计等一系列工作的总和。网站制作是策划师、网络程序员、网页设计师等专业人员，应用各种网络软件开发技术和网页设计技术，在互联网上建设站点，并包含域名注册和主机托管等服务的总称。</p>
+          	
+          	<h2>什么是网站方案策划？</h2>
+	          <p class="lead">网站方案策划是指应用科学的思维方法收集客户需求、分析客户业务，从而设计和制定最合适的网站解决方案，以期达到最佳效果的过程。网站策划细分为三类：</p>
+	          <ul>
+	          	<li>建站策划</li>
+	          	<li>推广策划</li>
+	          	<li>运营策划</li>
+	          </ul>
+	          
 	        
 	        <hr class="athensoft-divider2">
           	
-          	<h2>网站设计内容详情</h2>
-	          <p class="lead">网站设计具体内容一般包括：风格与主题设计、图文内容排版、系统架构设计、功能设计与开发、数据库设计与开发、网站测试与发布等。</p>
+          	<h2>建站策划包含哪些工作？</h2>
+	          <p class="lead">网站策划的工作不同的公司要求各不相同，但通常包括：确定客户需求，客户评估、网站结构规划、网站功能设计、视觉外观设计、页面设计等一系列工作。</p>
+	          
+	        <hr class="athensoft-divider2">
+          	
+          	<h2>建站策划的主要流程</h2>
+	          <p class="lead">网站策划的工作不同的公司要求各不相同，但通常包括：确定客户需求，客户评估、网站结构规划、网站功能设计、视觉外观设计、页面设计等一系列工作。</p>
 	          <ol>
-	          	<li>网站风格与主题设计 - 我们为您提供了丰富的网站风格和主题，您可以根据业务的需要选择自己喜欢的风格和主题。</li>
-	          	<li>网站图文内容排版 - 我们根据您的业务需求和用户的使用习惯来安排和调整网站版式，让您的网站看起来更友好。</li>
-	          	<li>功能设计与开发（可选）- 我们根据您的业务需要增加相应的业务功能，如用户注册、产品管理、消息管理、在线支付等等。</li>
-	          	<li>数据库设计与开发（可选）- 强大的后台数据库可以支持复杂的业务功能、让您轻松地维护自己的业务数据。</li>
-	          	<li>网站测试与发布 - 保证网站发布质量，给您的用户提供质量有保证的网站体验。</li>
+	          	<li>收集需求 - 详细了解您的业务类型，客户群体特征，经营模式等，对您的业务做一个全面细致的了解。</li>
+	          	<li>分析业务 - 根据您提供的业务信息对您的业务需求做一个细致的分析，并确定一个建站目标。</li>
+	          	<li>制定方案 - 根据建站目标确定网站的类型、风格、功能、布局、交互、内容等。</li>
+	          	<li>估算成本 - 根据制定的网站方案的工作量和实现难度给出建站成本。</li>
 	          </ol>
 	          
 	        <hr class="athensoft-divider2">
           	
           	
           	<h2>客户须知</h2>
-	          <p class="lead">关于网站设计，您需要了解和同意以下内容和条款：</p>
+	          <p class="lead">关于网站策划，您需要了解和同意以下内容和条款：</p>
 	          <ul>
-	          	<li>网站设计工作必须在双方签订服务协议以后方可进行</li>
-	          	<li>当前网站设计工作内容须严格按照需求确认书的有关内容进行，双方都不得单方面擅自变更需求内容。</li>
-	          	<li>若客户方提出变更需求内容时，需经过双方协商并文字备案，增加到协议附件中；由此引起的额外费用和工期延长后果需由客户方承担。</li>
-	          	<li>外观和主题设计须在功能设计之前进行，客户须及时对外观设计方案给出明确意见，否则项目无法继续进行，造成的延期和额外的费用由客户承担。</li>
-	          	<li>客户须尊重项目时间表，积极配合测试并及时反馈，以免不必要的损失</li>
-	          	<li>客户须准备好自己网站的文字、翻译、图片、音视频等资源文件，对其负责，保证其合法性、正确性和完整性，并及时提交</li>
-	          	<li>如果客户需要文案、翻译、图形图像处理、摄影、音视频剪辑制作等配套服务，须按相应的收费标准购买所需服务；客户亦可以从第三方获得这些服务</li>
+	          	<li>网站策划是一项专业和具体的工作，网站策划的充分与否直接决定着网站建设和后期推广运营的质量和效果，需要专业知识和较多时间。</li>
+	          	<li>客户的想法通常包含业务目标、一定的外观排版设计思路、一定的功能目标，但这仅属于需求范畴，不能等同于我们出具的网站策划方案。</li>
+	          	<li>区别于网站策划服务，客户咨询服务的内容不涉及具体策划细节和实现思路</li>
+	          	<li>详细表述需求是客户应尽的义务，不能作为议价筹码</li>
+	          	<li>客户的需求描述须最终书面化、并双方签字同意，可以单独成为用户需求清单或者被包含进方案建议书中</li>	          	
+	          	<li>网站设计工作开始前，双方需签订服务协议，用户需求清单或方案建议书须同时作为该协议附件</li>
+	          	<li>委托我们网站开发的客户，我们将对其减免网站策划的服务费用</li>
+	          	<li>单独委托我们进行网站策划的情形，按网站策划收费标准(CAD$50.00/小时)收取服务费</li>
 	          </ul>
 	        
 	        <hr class="athensoft-divider2">
 	          
 	        <h2>常见问题</h2>
 	          <p class="lead">查看更多相关问题请点击<a href="support-faq.do">帮助中心</a></p>
+	          
         </div><!-- /.col-lg-4 -->
         
         <div class="col-sm-3 blog-sidebar">
-          <jsp:include page="service-website-sidebar-inc.jsp"></jsp:include>
+         
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       
@@ -118,29 +131,25 @@
        <div class="row">
         <div class="col-md-6">
           <h3>顾客之声</h3>
-          <p class="lead">一个专业和规范的网站设计团队会严格遵循软件设计流程和技术行业商业流程的规则</p>
+          <p class="lead">待定</p>
           <ul>
             <li>业务意向达成</li>
           	<li>了解业务需求和设计要求</li>
           	<li>签立服务合同或协议</li>
           	<li>设计方案确定</li>
           	<li>实施和构建</li>
-          	<li>验收和发布</li>
-          	<li>移交和维护</li>
           </ul>
         </div>
         
         <div class="col-md-6">
           <h3>为什么选择我们?</h3>
-          <p class="lead">从客户的角度来说，网站的成本一般分为域名空间服务费、设计开发费、运营维护费等部分。</p>
+          <p class="lead">待定</p>
            <ul>
             <li>网站外观设计的美观度</li>
           	<li>实现视觉效果和用户体验复杂度</li>
           	<li>网站网页数量的多寡</li>
           	<li>网站功能的多寡与复杂程度</li>
           	<li>网站数据量的多寡</li>
-          	<li>网站架构设计的灵活度</li>
-          	<li>运用技术的先进程度和实现的难易程度</li>
           </ul>
         </div>
       </div>
@@ -149,29 +158,27 @@
      
 	 <hr class="athensoft-divider2">
 	 
-	 <!-- Partner -->
-	   <div class="row">
+	<!-- Partner -->
+	<div class="row">
 		<div class="col-md-12">
-			<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
-            <!-- Carousel items -->
+		<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
             	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-		</div><!--.Carousel-->
 		</div>
-	  <!-- End of partner -->
+		</div>
+	<!-- End of partner -->
 
-	  <!-- Bottom -->
-	  <jsp:include page="${inc_dir}/bottom_inc.jsp"></jsp:include>	
-	  <!-- End of Bottom -->
+	<!-- Bottom -->
+	<jsp:include page="${inc_dir}/bottom_inc.jsp"></jsp:include>	
+	<!-- End of Bottom -->
 
-	  <hr class="athensoft-divider">
+	<hr class="athensoft-divider">
 
-      <!-- FOOTER -->
-      <jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
-	  <!-- FOOTER -->
-	  
+	<!-- FOOTER -->
+	<jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
+	<!-- FOOTER -->
 	  
     </div><!-- /.container -->
 
@@ -179,7 +186,7 @@
     <!-- Global Scripts  -->
 	<jsp:include page="${inc_dir}/scripts_inc.jsp"></jsp:include>
     
-	<script>
+     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

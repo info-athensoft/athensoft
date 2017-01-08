@@ -59,7 +59,7 @@
 	            	<h1><spring:message code="slide.item.title_2"/></h1>
 	            	<p></p>
 	            	<p><spring:message code="slide.item.desc_2"/></p>
-	            	<p><a class="btn btn-lg btn-primary" href="/demo/case" role="button"><spring:message code="slide.item.button_2"/></a></p>
+	            	<p><a class="btn btn-lg btn-primary" href="/quot/project" role="button"><spring:message code="slide.item.button_2"/></a></p>
 	           	</div>
          	</div>
 		</div>
@@ -72,7 +72,7 @@
              		<h1><spring:message code="slide.item.title_1"/></h1>
              		<p></p>
              		<p><spring:message code="slide.item.desc_1"/></p>
-             		<p><a class="btn btn-lg btn-primary" href="/service/emarketing" role="button"><spring:message code="slide.item.button_1"/></a></p>
+             		<p><a class="btn btn-lg btn-primary" href="/demo/case" role="button"><spring:message code="slide.item.button_1"/></a></p>
            		</div>
          	</div>
        </div>
@@ -85,7 +85,7 @@
 	           		<h1><spring:message code="slide.item.title_3"/></h1>
 	             <p></p>
 	             <p><spring:message code="slide.item.desc_3"/></p>
-	             <p><a class="btn btn-lg btn-primary" href="signin.do" role="button"><spring:message code="slide.item.button_3"/></a></p>
+	             <p><a class="btn btn-lg btn-primary" href="/support/contactus" role="button"><spring:message code="slide.item.button_3"/></a></p>
 	           </div>
        		</div>
        </div>

@@ -91,7 +91,7 @@
           <img src="content/img/slide/b5.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1><spring:message code="slide.item.title_2"/></h1>
+              <h1><spring:message code="slide.item.title_2"/>Tomcat110</h1>
               <p></p>
               <p><spring:message code="slide.item.desc_2"/></p>
               <p><a class="btn btn-lg btn-primary" href="demo.do" role="button"><spring:message code="slide.item.button_2"/></a></p>

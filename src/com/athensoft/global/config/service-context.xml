@@ -11,6 +11,6 @@
 		base-package="com.athensoft.ecomm.service">
 	</context:component-scan>
 	<context:component-scan
-		base-package="com.athensoft.content.service">
+		base-package="com.athensoft.content.event.service">
 	</context:component-scan>
 </beans>

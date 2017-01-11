@@ -13,8 +13,8 @@
 	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
 		<property name="basenames">
 			<list>
-				<value>com/athensoft/ecomm/resources/website</value>
-				<value>com/athensoft/ecomm/resources/errorcodes</value>
+				<value>com/athensoft/global/resources/website</value>
+				<value>com/athensoft/global/resources/errorcodes</value>
 			</list>
 		</property>
 	</bean>
@@ -35,7 +35,7 @@
 	<!-- Database properties file support -->
 	<context:property-placeholder
 		ignore-unresolvable="true" 
-		location="classpath:com/athensoft/ecomm/config/jdbc-mysql.properties"
+		location="classpath:com/athensoft/global/config/jdbc-mysql.properties"
 	/>	
 	
 	<!-- Database connection -->	 

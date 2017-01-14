@@ -14,7 +14,7 @@ public class Event {
 	private String descShort;
 	private String descLong;
 	private String eventClass;
-	private String eventStatus;
+	private int eventStatus;
 	
 	//
 	private List<EventTag> listEventTag = new ArrayList<EventTag>();
@@ -92,10 +92,10 @@ public class Event {
 	public void setEventClass(String eventClass) {
 		this.eventClass = eventClass;
 	}
-	public String getEventStatus() {
+	public int getEventStatus() {
 		return eventStatus;
 	}
-	public void setEventStatus(String eventStatus) {
+	public void setEventStatus(int eventStatus) {
 		this.eventStatus = eventStatus;
 	}
 	

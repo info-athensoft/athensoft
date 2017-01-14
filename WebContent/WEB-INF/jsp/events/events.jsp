@@ -19,6 +19,7 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="support_dir" value="../support"/>
+<c:set var="imgage_event_path" value="/images/event"/>
 <!-- ENDS page variables -->
 
 <head>
@@ -68,18 +69,30 @@
         <div class="col-lg-9">
         
           	
-         <h3>公司背景</h3>
-          <p class="">Athensoft 成立于2008年，总部设立在加拿大魁北克，主营网站开发、移动应用、电子商务、轻量型ERP解决方案设计与实施以及IT技术咨询、培训等业务； 于2015年正式更名为Informatique Athensoft，并增加网络推广和在线品牌形象包装等业务； 2016年筹划并自主开发了<a href="http://www.adogo.ca">ADOGO 在线品牌形象与广告推广平台。</a><br/></p>
+         <h3>新闻公告</h3>
+          <p class="">Athensoft 成立于2008年，总部设立在加拿大魁北克<br/></p>
          <hr class="athensoft-divider2">
          
          
           <div class="row">
-          	<div class="col-sm-7">
-	          	
+          	<div class="col-sm-12">
+	          	<c:forEach items="${listNews}" var="news">
+	          		<div class="row">
+	          		<div class="col-sm-4">
+	          			<a href="#" class=""><img src="${imgage_event_path}/port1.jpg" alt="Image" style="max-width:100%;"></a>
+	          		</div>
+	          		<div class="col-sm-8">
+	          		<h4><c:out value="${news.title}"/></h4>
+	          		<c:out value="${news.postDatetime}"/> / <c:out value="${news.author}"/><br/>
+	          		<c:out value="${news.eventUUID}"/><br/>
+	          		<c:out value="${news.descShort}"/><br/>
+	          		</div>	          		
+	          		</div>
+	          		<hr/>
+	          	</c:forEach>
            </div><!-- end of inner row-8 -->
            
-           <div class="col-sm-5">
-           </div>
+           
           </div><!-- end of inner row-4 -->
 	        
 	        

@@ -16,27 +16,11 @@ public class Event {
 	private String eventClass;
 	private int eventStatus;
 	
+	private EventMedia primaryEventMedia;
+	
 	//
 	private List<EventTag> listEventTag = new ArrayList<EventTag>();
 	private List<EventMedia> listEventMedia = new ArrayList<EventMedia>();
-	
-	public EventMedia getPrimaryMedia(){
-		EventMedia em = null;
-		int size = listEventMedia.size();
-		if(size>0){
-			for(int i=0; i<size; i++){
-				EventMedia tmpEm = listEventMedia.get(i);
-				if(tmpEm.isPrimaryMedia()){
-					em = tmpEm;
-					break;
-				}
-			}
-		}else{
-			System.out.println("WARNING: no eventmedia object in the list");
-		}
-		return em;
-	}
-	
 	
 	public long getGlobalId() {
 		return globalId;
@@ -116,6 +100,33 @@ public class Event {
 	}
 	public void setListEventMedia(List<EventMedia> listEventMedia) {
 		this.listEventMedia = listEventMedia;
+	}
+
+
+	public EventMedia getPrimaryEventMedia() {
+		return this.primaryEventMedia;
+	}
+
+
+	public void setPrimaryEventMedia() {
+		EventMedia em = null;
+		int size = this.listEventMedia.size();
+		if(size>0){
+			for(int i=0; i<size; i++){
+				EventMedia tmpEm = listEventMedia.get(i);
+				if(tmpEm.isPrimaryMedia()){
+					em = tmpEm;
+					break;
+				}
+			}
+		}else{
+			System.out.println("WARNING: "+this.getClass().getName()+" - no eventmedia object in the list");
+			em = new EventMedia();
+			em.setMediaName("default media");
+			em.setMediaURL("event-default.png");
+		}
+		
+		this.primaryEventMedia = em;
 	}
 	
 	

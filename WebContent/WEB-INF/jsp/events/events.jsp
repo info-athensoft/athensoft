@@ -79,16 +79,18 @@
 	          	<c:forEach items="${listNews}" var="news">
 	          		<div class="row">
 	          		<div class="col-sm-4">
-	          			<a href="#" class=""><img src="${imgage_event_path}/port1.jpg" alt="Image" style="max-width:100%;"></a>
+	          			<a href="#" class=""><img src="${imgage_event_path}/${news.primaryEventMedia.mediaURL}" alt="Image" style="max-width:100%;"></a>
 	          		</div>
 	          		<div class="col-sm-8">
 	          		<h4><c:out value="${news.title}"/></h4>
 	          		<c:out value="${news.postDatetime}"/> / <c:out value="${news.author}"/><br/>
 	          		<c:out value="${news.eventUUID}"/><br/>
-	          		<c:out value="${news.descShort}"/><br/>
+	          		<div id="newsShort-${news.eventUUID}" ><c:out value="${news.descShort}"/></div>
+	          		<div id="newsDetail-${news.eventUUID}" style="display:none"><c:out value="${news.descLong}"/></div>
+	          		<button type="button" class="btn btn-success" id="btn-newsDetail-${news.eventUUID}" onclick="newsDetailToggle('${news.eventUUID}');">Read more...</button>
 	          		</div>	          		
 	          		</div>
-	          		<hr/>
+	          		<p><br/></p>
 	          	</c:forEach>
            </div><!-- end of inner row-8 -->
            
@@ -155,7 +157,27 @@
     $(function(){
     	$("#navbar li").removeClass();
     	$("#service").addClass("active");
+    	
+    	
     });
+    
+    function newsDetailToggle(eventUUID){
+    	var newsDetailDivId = "#newsDetail-"+eventUUID;
+    	$(newsDetailDivId).toggle();
+    	
+    	var newsShortDivId = "#newsShort-"+eventUUID;
+    	$(newsShortDivId).toggle();
+    	
+    	
+    	var newsDetailBtnId = "#btn-newsDetail-"+eventUUID;
+    	var btnText = $(newsDetailBtnId).text();
+    	if(btnText=='Read more...'){
+    		$(newsDetailBtnId).text('Close');
+    	}else{
+    		$(newsDetailBtnId).text('Read more...');
+    	}
+    }
+    
     </script>
     <!-- athensoft local script -->
 </body>

@@ -10,7 +10,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.athensoft.content.event.entity.Event;
 import com.athensoft.content.event.entity.EventMedia;
+import com.athensoft.content.event.entity.EventTag;
 import com.athensoft.content.event.service.EventMediaService;
+import com.athensoft.content.event.service.EventTagService;
 import com.athensoft.content.event.service.NewsService;
 
 @Controller
@@ -30,6 +32,13 @@ public class NewsController {
 		this.eventMediaService = eventMediaService;
 	}
 	
+	@Autowired
+	private EventTagService eventTagService;
+
+	public void setEventTagService(EventTagService eventTagService) {
+		this.eventTagService = eventTagService;
+	}
+	
 	
 	
 	@RequestMapping("/event/news")
@@ -44,10 +53,13 @@ public class NewsController {
 		List<Event> listNews = newsService.getAllNews();
 		
 		for(Event news : listNews){
-			List<EventMedia> listEventMedia = eventMediaService.getEventMediaByEventUUID(news.getEventUUID());
+			String eventUUID = news.getEventUUID();
+			List<EventMedia> listEventMedia = eventMediaService.getEventMediaByEventUUID(eventUUID);
 			news.setListEventMedia(listEventMedia);
 			news.setPrimaryEventMedia();
-//			news.getPrimaryEventMedia();
+			
+			List<EventTag> listEventTag = eventTagService.getEventTagByEventUUID(eventUUID);
+			news.setListEventTag(listEventTag);
 		}
 		
 		Map<String, Object> data = mav.getModel();

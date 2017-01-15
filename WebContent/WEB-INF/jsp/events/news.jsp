@@ -84,10 +84,19 @@
 	          		<div class="col-sm-8">
 	          		<h4><c:out value="${news.title}"/></h4>
 	          		<c:out value="${news.postDatetime}"/> / <c:out value="${news.author}"/><br/>
+	          		
 	          		<!-- <c:out value="${news.eventUUID}"/><br/> -->
 	          		<div id="newsShort-${news.eventUUID}" ><c:out value="${news.descShort}"/></div>
-	          		<div id="newsDetail-${news.eventUUID}" style="display:none"><c:out value="${news.descLong}"/></div>
+	          		<div id="newsDetail-${news.eventUUID}" style="display:none"><c:out value="${news.descLong}"/></div><br/>
 	          		<button type="button" class="btn btn-success" id="btn-newsDetail-${news.eventUUID}" onclick="newsDetailToggle('${news.eventUUID}');">Read more...</button>
+	          		<br/>	          		
+	          		<p>
+	          		<br/>
+	          		Keywords:
+	          		<c:forEach items="${news.listEventTag}" var="eventTag">
+	          			<a href="###" class="btn btn-info btn-xs"><c:out value="${eventTag.tagName}"/></a>
+	          		</c:forEach>
+	          		</p>
 	          		</div>	          		
 	          		</div>
 	          		<p><br/></p>

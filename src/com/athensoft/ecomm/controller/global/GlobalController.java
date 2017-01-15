@@ -143,10 +143,7 @@ public class GlobalController {
 	}
 	
 	/* events */
-	@RequestMapping("/events")
-	public String gotoEventsHome(){
-		return "events/events";
-	}
+	
 	
 	/* company */
 	@RequestMapping("/about/company")

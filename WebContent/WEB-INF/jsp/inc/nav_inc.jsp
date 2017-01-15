@@ -57,15 +57,19 @@
                 <li id="demo">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.demo"/> <span class="caret"></span></a>
                 	<ul class="dropdown-menu" role="menu">
-                    <li><a href="/demo/function"><spring:message code="menu.demo.function"/></a></li>
-                    <li><a href="/demo/case"><spring:message code="menu.demo.case"/></a></li>
-                  </ul>
+	                    <li><a href="/demo/function"><spring:message code="menu.demo.function"/></a></li>
+	                    <li><a href="/demo/case"><spring:message code="menu.demo.case"/></a></li>
+                  	</ul>
                 </li>
                 <!-- end demo -->
                 
                 <!-- events -->
                 <li id="events">
-                	<a href="/events"><spring:message code="menu.events"/></a>
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><spring:message code="menu.events"/> <span class="caret"></span></a>
+                	<ul class="dropdown-menu" role="menu">
+	                    <li><a href="/event/activity"><spring:message code="menu.event.activity"/></a></li>
+	                    <li><a href="/event/news"><spring:message code="menu.event.news"/></a></li>
+                  	</ul>
                 </li>
                 <!-- end events -->
                 

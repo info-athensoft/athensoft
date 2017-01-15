@@ -32,13 +32,38 @@ public class NewsController {
 	
 	
 	
-	@RequestMapping("/news")
-	public ModelAndView getAllNews(){
+	@RequestMapping("/event/news")
+	public ModelAndView getNewsHome(){
 		ModelAndView mav = new ModelAndView();
 		
-		String viewName = "events/events";
+		String viewName = "events/news";
 		mav.setViewName(viewName);
 		
+		
+		//data
+		List<Event> listNews = newsService.getAllNews();
+		
+		for(Event news : listNews){
+			List<EventMedia> listEventMedia = eventMediaService.getEventMediaByEventUUID(news.getEventUUID());
+			news.setListEventMedia(listEventMedia);
+			news.setPrimaryEventMedia();
+//			news.getPrimaryEventMedia();
+		}
+		
+		Map<String, Object> data = mav.getModel();
+		data.put("listNews", listNews);
+		
+		return mav;
+	}
+	
+	
+	
+	@RequestMapping("/event/activity")
+	public ModelAndView getActivityHome(){
+		ModelAndView mav = new ModelAndView();
+		
+		String viewName = "events/activity";
+		mav.setViewName(viewName);
 		
 		//data
 		List<Event> listNews = newsService.getAllNews();

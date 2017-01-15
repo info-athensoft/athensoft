@@ -166,10 +166,12 @@
 	<div class="row">
 	<div class="col-md-12">
 		<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
-   	  	<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
-		<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
-    	<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
-    	<div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x90" alt="Image" style="max-width:100%;"></a></div>
+		<div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+        <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+        <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+        <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+        <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+        <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
 	</div>
 	</div>
   	<!-- ENDS partner -->

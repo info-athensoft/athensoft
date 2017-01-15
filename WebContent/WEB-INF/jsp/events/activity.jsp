@@ -49,8 +49,8 @@
     <!-- Carousel -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>新闻与活动</h2>
-		  <p>发布最新活动消息与新闻动态</p>
+	    <h2>活动信息</h2>
+		  <p>发布最新活动消息</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">联系我们</a>
 		  	<a class="btn btn-primary btn-lg" href="/index" role="button">返回</a>
@@ -68,11 +68,11 @@
         
         <div class="col-lg-9">
         
-          	
+        <!--   	
          <h3>新闻公告</h3>
           <p class="">Athensoft 成立于2008年，总部设立在加拿大魁北克<br/></p>
          <hr class="athensoft-divider2">
-         
+          -->
          
           <div class="row">
           	<div class="col-sm-12">
@@ -84,7 +84,7 @@
 	          		<div class="col-sm-8">
 	          		<h4><c:out value="${news.title}"/></h4>
 	          		<c:out value="${news.postDatetime}"/> / <c:out value="${news.author}"/><br/>
-	          		<c:out value="${news.eventUUID}"/><br/>
+	          		<!-- <c:out value="${news.eventUUID}"/><br/> -->
 	          		<div id="newsShort-${news.eventUUID}" ><c:out value="${news.descShort}"/></div>
 	          		<div id="newsDetail-${news.eventUUID}" style="display:none"><c:out value="${news.descLong}"/></div>
 	          		<button type="button" class="btn btn-success" id="btn-newsDetail-${news.eventUUID}" onclick="newsDetailToggle('${news.eventUUID}');">Read more...</button>
@@ -117,10 +117,12 @@
 		<div class="col-md-12">
 			<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
             <!-- Carousel items -->
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
+           	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+           	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+           	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+           	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+           	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
+           	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt="Image" style="max-width:100%;"></a></div>
 		</div><!--.Carousel-->
 		</div>
 	  <!-- End of partner -->

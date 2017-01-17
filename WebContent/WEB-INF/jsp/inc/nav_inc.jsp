@@ -96,6 +96,8 @@
                
               </ul>
               
+              
+           <!-- 
               <ul class="nav navbar-nav navbar-right">
         		<li><a href="/signin"><spring:message code="user.signin"/></a></li>
         		<li><a href="/signup"><spring:message code="user.signup"/></a></li>
@@ -107,12 +109,7 @@
                     <li><a href="/?locale=en_US"><spring:message code="lang.en"/></a></li>
                     <li><a href="/?locale=zh_CN"><spring:message code="lang.zh_s"/></a></li>
                     <li><a href="/?locale=zh_CN"><spring:message code="lang.zh_t"/></a></li>
-                    <!-- 
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                     -->
+                    
                   </ul>
                 </li>
                 
@@ -120,6 +117,13 @@
         			<a href="view_cart.do"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>&nbsp;&nbsp;<span class="badge">0</span></a>
         		</li>
         	  </ul>
+        	   -->
+        	  <!-- 
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                     -->
               
             </div>
             

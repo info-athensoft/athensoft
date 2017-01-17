@@ -152,6 +152,15 @@ public class GlobalController {
 	}
 	
 	
+	/* developer */
+	@RequestMapping("/developer/resource")
+	public String gotoResourceHome(){
+		return "developer/resource";
+	}
+	
+	
+	
+	
 	/** function **/
 	/* quotation calculator for projects */
 	@RequestMapping("/quot/project")

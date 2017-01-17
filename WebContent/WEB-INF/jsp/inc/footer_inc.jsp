@@ -15,6 +15,6 @@
 <!-- FOOTER -->
    <footer>
      <p class="pull-right"><a href="#"><spring:message code="footer.gotop"/></a></p>
-     <p>© 2016 INFORMATIQUE ATHENSOFT <spring:message code="footer.right"/> · <a href="#"><spring:message code="footer.privacy"/></a> · <a href="#"><spring:message code="footer.terms"/></a></p>
+     <p>© 2008-2017 INFORMATIQUE ATHENSOFT <spring:message code="footer.right"/> · <a href="#"><spring:message code="footer.privacy"/></a> · <a href="#"><spring:message code="footer.terms"/></a></p>
    </footer>
 <!-- FOOTER -->

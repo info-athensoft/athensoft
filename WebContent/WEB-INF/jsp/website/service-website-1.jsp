@@ -159,15 +159,7 @@
 	 <hr class="athensoft-divider2">
 	 
 	<!-- Partner -->
-	<div class="row">
-		<div class="col-md-12">
-		<div style="text-align:center"><h3><spring:message code="partner.title"/></h3><br/></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-            	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/240x180" alt="Image" style="max-width:100%;"></a></div>
-		</div>
-		</div>
+	<jsp:include page="${inc_dir}/partner_inc.jsp"></jsp:include>
 	<!-- End of partner -->
 
 	<!-- Bottom -->

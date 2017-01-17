@@ -154,8 +154,15 @@
 	<br/> 
 	
 	</div>
+	
+	
 
     <div class="container marketing">
+    <hr class="athensoft-divider2"/>
+	  
+	<!-- Partner -->
+	<jsp:include page="${inc_dir}/partner_inc.jsp"></jsp:include>
+  	<!-- ENDS partner -->
      
 	<hr class="athensoft-divider2">
 

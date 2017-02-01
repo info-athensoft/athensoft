@@ -3,6 +3,7 @@ package com.athensoft.content.event.controller;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +18,8 @@ import com.athensoft.content.event.service.NewsService;
 
 @Controller
 public class NewsController {
+	
+	private final static Logger logger = Logger.getLogger(NewsController.class);
 	
 	@Autowired
 	private NewsService newsService;
@@ -42,7 +45,9 @@ public class NewsController {
 	
 	
 	@RequestMapping("/event/news")
-	public ModelAndView getNewsHome(){
+	public ModelAndView getNewsHome(){		
+		logger.info("entering /event/news");
+		
 		ModelAndView mav = new ModelAndView();
 		
 		String viewName = "events/news";
@@ -65,6 +70,7 @@ public class NewsController {
 		Map<String, Object> data = mav.getModel();
 		data.put("listNews", listNews);
 		
+		logger.info("existing /event/news");
 		return mav;
 	}
 	

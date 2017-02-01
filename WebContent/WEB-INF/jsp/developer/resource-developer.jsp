@@ -48,8 +48,8 @@
     <!-- Carousel -->
 	<div class="jumbotron">
 	  <div class="container">
-	    <h2>Resources</h2>
-		  <p>Resources,references and tools for developers and designers</p>
+	    <h2>Resources for Developers</h2>
+		  <p>Resources,references and tools for developers</p>
 		  <p>
 		    <a class="btn btn-primary btn-lg" href="/support/contactus" role="button">Contact us</a>
 		  	<a class="btn btn-primary btn-lg" href="/index" role="button">Return home</a>
@@ -81,7 +81,9 @@
           		<p class=""><a href="https://www.tutorialspoint.com"><b>003.Tutorialspoint</b></a> - Simply Easy Learning, Online Tutorials</p>
           		<p class=""><a href="http://tutorials.jenkov.com/"><b>004.Jenkov.com</b></a> - Online Tech and Media Labs, Online Tutorials</p>
           		<p class=""><a href="http://www.runoob.com/"><b>005.RUNOOB 菜鸟教程</b></a> - Online Tutorials</p>
-          	<br/>+
+          		<p class=""><a href="http://www.java2s.com/"><b>006.Java2S.com</b></a> - Demo Source and Support, Online Tutorials and library downloads</p>
+          		
+          	<br/>
           	<h4>D.Community, Forum, Q&amp;A</h4>
           		<p class=""><a href="https://www.oschina.net/"><b>001.开源中国社区</b></a></p>
           		<p class=""><a href="http://www.iteye.com/"><b>002.ITEYE</b></a></p>
@@ -116,6 +118,8 @@
           		<p class=""><a href="http://nicedit.com/"><b>001.NicEdit</b></a> - NicEdit is a Lightweight, Cross Platform, Inline Content Editor to allow easy editing of web site content on the fly in the browser.</p>
           		<p class=""><a href="http://www.putdb.com/"><b>002.WebBuilder</b></a> - WebBuilder是一款开源的可视化Web应用开发和运行平台。</p>
           		<p class=""><a href="https://www.tinymce.com/"><b>003.TinyMCE</b></a> - TinyMCE is a platform independent web-based JavaScript HTML WYSIWYG editor control released as open source under LGPL.</p>
+          		<p class=""><a href="https://jsfiddle.net/"><b>004.JSFiddle</b></a> - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</p>
+          		<p class=""><a href="http://htmledit.squarefree.com/"><b>005.Real-time HTML Editor</b></a> - Real-time HTML Editor</p>
           	<br/> 
          <hr class="athensoft-divider2">
          
@@ -130,11 +134,6 @@
          
          <h3>System Administrator - Windows</h3> 
          
-         
-         
-        
-          
-         
           <div class="row">
           	<div class="col-sm-7">
 	          	
@@ -148,7 +147,7 @@
         </div><!-- end of outter row-9 -->
         
         <div class="col-sm-3 blog-sidebar">
-         <jsp:include page="${support_dir}/support-faq-sidebar-inc.jsp"></jsp:include>
+         <jsp:include page="developer-sidebar-inc.jsp"></jsp:include>
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       

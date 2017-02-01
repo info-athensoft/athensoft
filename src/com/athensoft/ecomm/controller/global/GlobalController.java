@@ -152,10 +152,22 @@ public class GlobalController {
 	}
 	
 	
-	/* developer */
+	/* resources - home */
 	@RequestMapping("/developer/resource")
 	public String gotoResourceHome(){
-		return "developer/resource";
+		return "developer/resource-developer";
+	}
+	
+	/* resources - developer */
+	@RequestMapping("/developer/resource-developer")
+	public String gotoResourceDeveloper(){
+		return "developer/resource-developer";
+	}
+	
+	/* resources - designer */
+	@RequestMapping("/developer/resource-designer")
+	public String gotoResourceDesigner(){
+		return "developer/resource-designer";
 	}
 	
 	

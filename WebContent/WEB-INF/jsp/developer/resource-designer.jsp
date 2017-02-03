@@ -80,7 +80,7 @@
           	
          <h3>II. Tutorials</h3>
          	<h4>A. General</h4>
-         		<p class=""><a href="http://http://www.w3schools.com/"><b>001.W3 Schools</b></a> - Online Tutorials</p>
+         		<p class=""><a href="http://www.w3schools.com/"><b>001.W3 Schools</b></a> - Online Tutorials</p>
          		<p class=""><a href="https://thenewboston.com/"><b>002.TheNewBostom</b></a> - [Video] Online Free Tutorials</p>
           		<p class=""><a href="https://www.tutorialspoint.com"><b>003.Tutorialspoint</b></a> - Simply Easy Learning, Online Tutorials</p>
           	<br/>

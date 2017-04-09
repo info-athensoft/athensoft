@@ -26,13 +26,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.jsp?locale=${loc}">Informatique Athensoft</a>
+              <a class="navbar-brand" href="index.do?locale=${loc}">Informatique Athensoft</a>
             </div>
             
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li id="home">
-                	<a href="index.jsp"><spring:message code="menu.home"/></a>
+                	<a href="index.do"><spring:message code="menu.home"/></a>
                 </li>
                 
                 <!-- website -->

@@ -147,7 +147,7 @@
         </div><!-- end of outter row-9 -->
         
         <div class="col-sm-3 blog-sidebar">
-         <jsp:include page="${support_inc}/support-faq-sidebar-inc.jsp"></jsp:include>
+         <jsp:include page="${support_dir}/support-faq-sidebar-inc.jsp"></jsp:include>
         </div><!-- /.blog-sidebar -->
       </div><!-- /.row -->  
       

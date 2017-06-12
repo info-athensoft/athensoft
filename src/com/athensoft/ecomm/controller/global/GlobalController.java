@@ -170,6 +170,18 @@ public class GlobalController {
 		return "developer/resource-designer";
 	}
 	
+	/* resources - language */
+	@RequestMapping("/developer/resource-lang-en")
+	public String gotoResourceLangEn(){
+		return "resource/resource-lang-en";
+	}
+	
+	/* resources - language */
+	@RequestMapping("/developer/resource-lang-fr")
+	public String gotoResourceLangFr(){
+		return "resource/resource-lang-fr";
+	}
+	
 	
 	
 	
